@@ -10,6 +10,7 @@ body{background-color: dimgrey; font-family: 'KoHo', sans-serif; color: white; t
     left: 50%; top: 50%;
     z-index: 9999;
     width: 580px; max-width: 100%;
+    height: auto; max-height: 100%
 }
 
 .bfc-temp img{width: 40%; height: auto}
