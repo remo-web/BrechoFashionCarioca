@@ -20,6 +20,13 @@ body{background-color: dimgrey; font-family: 'KoHo', sans-serif; color: white; t
 
 .bfc-temp img{width: 40%; height: auto}
 
+#mc_embed_signup #mce-success-response{
+    padding: 1em;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    width: auto;
+}
+
 .bfc-footer--copyright{
     position: relative;
     display: block;
