@@ -1,3 +1,7 @@
+html, body{
+    height: 100%;
+}
+
 ul li{list-style-type: none}
 
 body{background-color: dimgrey; font-family: 'KoHo', sans-serif; color: white; text-align: center}
@@ -6,19 +10,23 @@ body{background-color: dimgrey; font-family: 'KoHo', sans-serif; color: white; t
 
 .bfc-temp{
     position: absolute;
+    display: inline-block;
     transform: translate(-50%, -50%);
-    left: 50%; top: 50%;
+    left: 48%; top: 50%;
     z-index: 9999;
-    width: 580px; max-width: 100%;
-    height: auto; max-height: 100%
+    width: 98%; max-width: 600px;
+    margin: 0 2%;
 }
 
 .bfc-temp img{width: 40%; height: auto}
 
 .bfc-footer--copyright{
-    position: fixed;
+    position: relative;
+    display: block;
+    text-align: center;
     transform: translate(-50%, 0%);
-    left: 50%; bottom: 0%;
+    left: 50%;
+    bottom: 0;
     z-index: 9999;
     opacity: 0.6;
 }
