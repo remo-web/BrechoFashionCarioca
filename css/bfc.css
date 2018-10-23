@@ -16,7 +16,7 @@ body{background-color: dimgrey; font-family: 'KoHo', sans-serif; color: white; t
 .bfc-temp img{width: 40%; height: auto}
 
 .bfc-footer--copyright{
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, 0%);
     left: 50%; bottom: 0%;
     z-index: 9999;
