@@ -18,6 +18,18 @@ body{background-color: dimgrey; font-family: 'KoHo', sans-serif; color: white; t
     margin: 0 2%;
 }
 
+@media only screen and (max-height: 768px){
+    .bfc-temp{
+        position: absolute;
+        display: inline-block;
+        transform: translate(-50%, 0%);
+        left: 48%; top: 5%;
+        z-index: 9999;
+        width: 98%; max-width: 600px;
+        margin: 0 2%;
+    }
+}
+
 .bfc-temp img{width: 40%; height: auto}
 
 #mc_embed_signup #mce-success-response{
