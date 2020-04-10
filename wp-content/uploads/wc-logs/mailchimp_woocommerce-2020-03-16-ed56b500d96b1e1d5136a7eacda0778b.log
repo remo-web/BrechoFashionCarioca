@@ -1,0 +1,32 @@
+2020-03-16T14:06:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818759
+2020-03-16T14:06:35+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818759
+2020-03-16T19:45:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818912
+2020-03-16T19:46:25+00:00 NOTICE product_submit.success :: addStoreProduct :: #818912
+2020-03-16T20:02:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818912
+2020-03-16T20:02:26+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818912
+2020-03-16T20:03:23+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818912
+2020-03-16T20:03:43+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818912
+2020-03-16T20:18:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818914
+2020-03-16T20:19:21+00:00 NOTICE product_submit.success :: addStoreProduct :: #818914
+2020-03-16T20:24:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818916
+2020-03-16T20:25:22+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 0332aef1f692b106998f6a69cbd1dbcc
+2020-03-16T20:25:23+00:00 NOTICE product_submit.success :: addStoreProduct :: #818916
+2020-03-16T20:25:24+00:00 NOTICE abandoned_cart.success :: email: mariamaavila@yahoo.com.br :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=0332aef1f692b106998f6a69cbd1dbcc
+2020-03-16T20:27:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818916
+2020-03-16T20:28:34+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818916
+2020-03-16T21:19:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 41695e1bee78149cd580c9c6bafaf3a8
+2020-03-16T21:19:10+00:00 NOTICE abandoned_cart.success :: email: taisprates2000@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=41695e1bee78149cd580c9c6bafaf3a8
+2020-03-16T21:21:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 818918
+2020-03-16T21:21:08+00:00 NOTICE debug :: Order ID 818918 was on-hold and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-03-16T21:21:10+00:00 NOTICE debug :: Order ID 818918 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-03-16T21:23:16+00:00 NOTICE order_submit.success :: addStoreOrder :: #818918 :: email: taisprates2000@gmail.com :: abandoned cart deleted [41695e1bee78149cd580c9c6bafaf3a8]

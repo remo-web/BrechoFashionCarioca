@@ -1,0 +1,213 @@
+03-11-2020 @ 15:31:10 - Getting the order installments...
+03-11-2020 @ 15:31:10 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 4990
+                    [installment_amount] => 4990
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 4990
+                    [installment_amount] => 2495
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 4990
+                    [installment_amount] => 1663
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 4990
+                    [installment_amount] => 1248
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 4990
+                    [installment_amount] => 998
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 4990
+                    [installment_amount] => 832
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 6737
+                    [installment_amount] => 962
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 6986
+                    [installment_amount] => 873
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 7236
+                    [installment_amount] => 804
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 7485
+                    [installment_amount] => 749
+                )
+
+        )
+
+)
+
+03-11-2020 @ 15:34:43 - Doing a transaction for order 818650...
+03-11-2020 @ 15:34:44 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => 
+    [acquirer_id] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2020-03-11T18:34:44.067Z
+    [date_updated] => 2020-03-11T18:34:44.067Z
+    [amount] => 4990
+    [authorized_amount] => 0
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 171297578
+    [cost] => 0
+    [card_holder_name] => Juliana da Silva R d
+    [card_last_digits] => 0635
+    [card_first_digits] => 546056
+    [card_brand] => mastercard
+    [card_pin_mode] => 
+    [card_magstripe_fallback] => 
+    [cvm_pin] => 
+    [postback_url] => https://brechofashioncarioca.com.br/wc-api/WC_Pagarme_Credit_Card_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 177.55.120.7
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 21
+            [number] => 981131830
+            [id] => 58374762
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => Rua Mirataia
+            [complementary] => Bl 3 Ap 202
+            [street_number] => 299
+            [neighborhood] => Pechincha
+            [city] => Rio de Janeiro
+            [state] => RJ
+            [zipcode] => 22770190
+            [country] => Brasil
+            [id] => 73167587
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [id] => 89944287
+            [external_id] => 
+            [type] => 
+            [country] => 
+            [document_number] => 04548173714
+            [document_type] => cpf
+            [name] => Juliana Rodrigues de Lima
+            [email] => ju.rodrigueslima45@gmail.com
+            [phone_numbers] => 
+            [born_at] => 1975-02-27T03:00:00.000Z
+            [birthday] => 
+            [gender] => F
+            [date_created] => 2020-03-11T18:34:44.009Z
+            [documents] => Array
+                (
+                )
+
+        )
+
+    [billing] => 
+    [shipping] => 
+    [items] => Array
+        (
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ck7nnxpef0983ns640ehapxmt
+            [date_created] => 2020-03-11T18:34:44.055Z
+            [date_updated] => 2020-03-11T18:34:44.055Z
+            [brand] => mastercard
+            [holder_name] => Juliana da Silva R d
+            [first_digits] => 546056
+            [last_digits] => 0635
+            [country] => BRAZIL
+            [fingerprint] => ck7nnxol40kgb0h07p49gdmnx
+            [valid] => 
+            [expiration_date] => 0727
+        )
+
+    [split_rules] => 
+    [metadata] => Array
+        (
+            [order_number] => 818650
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+    [reference_key] => 
+    [device] => 
+    [local_transaction_id] => 
+    [local_time] => 
+    [fraud_covered] => 
+    [fraud_reimbursed] => 
+    [order_id] => 
+    [risk_level] => unknown
+    [receipt_url] => 
+    [payment] => 
+    [addition] => 
+    [discount] => 
+    [private_label] => 
+)
+
+03-11-2020 @ 15:34:44 - Payment status for order 818650 is now: processing
+03-11-2020 @ 15:34:48 - Payment status for order 818650 is now: paid

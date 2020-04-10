@@ -1,0 +1,125 @@
+2020-03-11T18:32:34+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 4fe0f378d4703d38b599146f1456af8c
+2020-03-11T18:32:35+00:00 NOTICE abandoned_cart.success :: email: ju.rodrigueslima45@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=4fe0f378d4703d38b599146f1456af8c
+2020-03-11T18:34:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 44
+2020-03-11T18:34:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 818650
+2020-03-11T18:34:50+00:00 NOTICE debug :: Order ID 818650 was on-hold and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-03-11T18:34:53+00:00 NOTICE debug :: Order ID 818650 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-03-11T18:35:41+00:00 NOTICE member.sync :: Updated Member ju.rodrigueslima45@gmail.com :: Array
+(
+    [previous_status] => transactional
+    [status] => 1
+    [merge_fields] => Array
+        (
+            [FNAME] => Juliana
+            [LNAME] => Rodrigues de Lima
+        )
+
+)
+
+2020-03-11T18:36:33+00:00 NOTICE order_submit.success :: addStoreOrder :: #818650 :: email: ju.rodrigueslima45@gmail.com :: abandoned cart deleted [4fe0f378d4703d38b599146f1456af8c]
+2020-03-11T18:36:34+00:00 NOTICE member.sync :: Updated Member ju.rodrigueslima45@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Juliana
+            [LNAME] => Rodrigues de Lima
+        )
+
+)
+
+2020-03-11T19:13:42+00:00 NOTICE debug :: Order ID 818493 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-03-11T19:13:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 818493
+2020-03-11T19:15:37+00:00 NOTICE order_submit.success :: updateStoreOrder :: #818493 :: email: recapaca@hotmail.com
+2020-03-11T20:05:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818649
+2020-03-11T20:05:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818607
+2020-03-11T20:05:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818604
+2020-03-11T20:05:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818593
+2020-03-11T20:05:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818560
+2020-03-11T20:05:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818372
+2020-03-11T20:06:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818340
+2020-03-11T20:06:00+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818333
+2020-03-11T20:06:01+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817908
+2020-03-11T20:06:01+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817740
+2020-03-11T20:06:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817730
+2020-03-11T20:06:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817474
+2020-03-11T20:06:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817462
+2020-03-11T20:06:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817436
+2020-03-11T20:06:04+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 816730
+2020-03-11T20:06:04+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 816720
+2020-03-11T20:06:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 816248
+2020-03-11T20:06:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 816220
+2020-03-11T20:06:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 814782
+2020-03-11T20:06:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 814726
+2020-03-11T20:06:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 814366
+2020-03-11T20:06:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 813881
+2020-03-11T20:06:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 811781
+2020-03-11T20:06:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 806542
+2020-03-11T20:06:10+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 805711
+2020-03-11T20:06:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 805309
+2020-03-11T20:06:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 804358
+2020-03-11T20:06:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 803223
+2020-03-11T20:06:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 694857
+2020-03-11T20:06:13+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 414064
+2020-03-11T20:06:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 410020
+2020-03-11T20:06:15+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818649
+2020-03-11T20:06:16+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818607
+2020-03-11T20:06:16+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818604
+2020-03-11T20:06:18+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818593
+2020-03-11T20:06:18+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818560
+2020-03-11T20:06:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818372
+2020-03-11T20:06:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818340
+2020-03-11T20:06:20+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818333
+2020-03-11T20:06:21+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817908
+2020-03-11T20:06:21+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817740
+2020-03-11T20:06:22+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817730
+2020-03-11T20:06:22+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817474
+2020-03-11T20:06:23+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817462
+2020-03-11T20:06:23+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817436
+2020-03-11T20:06:24+00:00 NOTICE product_submit.success :: updateStoreProduct :: #816730
+2020-03-11T20:06:24+00:00 NOTICE product_submit.success :: updateStoreProduct :: #816720
+2020-03-11T20:06:25+00:00 NOTICE product_submit.success :: updateStoreProduct :: #816248
+2020-03-11T20:06:26+00:00 NOTICE product_submit.success :: updateStoreProduct :: #816220
+2020-03-11T20:06:26+00:00 NOTICE product_submit.success :: updateStoreProduct :: #814782
+2020-03-11T20:06:27+00:00 NOTICE product_submit.success :: updateStoreProduct :: #814726
+2020-03-11T20:06:27+00:00 NOTICE product_submit.success :: updateStoreProduct :: #814366
+2020-03-11T20:06:28+00:00 NOTICE product_submit.success :: updateStoreProduct :: #813881
+2020-03-11T20:06:28+00:00 NOTICE product_submit.success :: updateStoreProduct :: #811781
+2020-03-11T20:06:29+00:00 NOTICE product_submit.success :: updateStoreProduct :: #806542
+2020-03-11T20:06:29+00:00 NOTICE product_submit.success :: updateStoreProduct :: #805711
+2020-03-11T20:06:30+00:00 NOTICE product_submit.success :: updateStoreProduct :: #805309
+2020-03-11T20:06:31+00:00 NOTICE product_submit.success :: updateStoreProduct :: #804358
+2020-03-11T20:06:31+00:00 NOTICE product_submit.success :: updateStoreProduct :: #803223
+2020-03-11T20:06:32+00:00 NOTICE product_submit.success :: updateStoreProduct :: #694857
+2020-03-11T20:06:33+00:00 NOTICE product_submit.success :: updateStoreProduct :: #414064
+2020-03-11T20:06:33+00:00 NOTICE product_submit.success :: updateStoreProduct :: #410020
+2020-03-11T21:46:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818622
+2020-03-11T21:46:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818620
+2020-03-11T21:46:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817766
+2020-03-11T21:46:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 817514
+2020-03-11T21:46:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 815175
+2020-03-11T21:46:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 814750
+2020-03-11T21:46:07+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 779034
+2020-03-11T21:46:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 774123
+2020-03-11T21:46:34+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818622
+2020-03-11T21:46:34+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818620
+2020-03-11T21:46:35+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817766
+2020-03-11T21:46:35+00:00 NOTICE product_submit.success :: updateStoreProduct :: #817514
+2020-03-11T21:46:36+00:00 NOTICE product_submit.success :: updateStoreProduct :: #815175
+2020-03-11T21:46:36+00:00 NOTICE product_submit.success :: updateStoreProduct :: #814750
+2020-03-11T21:46:37+00:00 NOTICE product_submit.success :: updateStoreProduct :: #779034
+2020-03-11T21:46:37+00:00 NOTICE product_submit.success :: updateStoreProduct :: #774123

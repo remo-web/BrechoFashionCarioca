@@ -1,0 +1,371 @@
+04-01-2020 @ 12:01:09 - Getting the order installments...
+04-01-2020 @ 12:01:09 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 6590
+                    [installment_amount] => 6590
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 6590
+                    [installment_amount] => 3295
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 6590
+                    [installment_amount] => 2197
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 6590
+                    [installment_amount] => 1648
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 6590
+                    [installment_amount] => 1318
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 6590
+                    [installment_amount] => 1098
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 8897
+                    [installment_amount] => 1271
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 9226
+                    [installment_amount] => 1153
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 9556
+                    [installment_amount] => 1062
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 9885
+                    [installment_amount] => 989
+                )
+
+        )
+
+)
+
+04-01-2020 @ 12:29:24 - Getting the order installments...
+04-01-2020 @ 12:29:24 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 6590
+                    [installment_amount] => 6590
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 6590
+                    [installment_amount] => 3295
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 6590
+                    [installment_amount] => 2197
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 6590
+                    [installment_amount] => 1648
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 6590
+                    [installment_amount] => 1318
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 6590
+                    [installment_amount] => 1098
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 8897
+                    [installment_amount] => 1271
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 9226
+                    [installment_amount] => 1153
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 9556
+                    [installment_amount] => 1062
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 9885
+                    [installment_amount] => 989
+                )
+
+        )
+
+)
+
+04-01-2020 @ 12:35:00 - Getting the order installments...
+04-01-2020 @ 12:35:01 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 6590
+                    [installment_amount] => 6590
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 6590
+                    [installment_amount] => 3295
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 6590
+                    [installment_amount] => 2197
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 6590
+                    [installment_amount] => 1648
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 6590
+                    [installment_amount] => 1318
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 6590
+                    [installment_amount] => 1098
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 8897
+                    [installment_amount] => 1271
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 9226
+                    [installment_amount] => 1153
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 9556
+                    [installment_amount] => 1062
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 9885
+                    [installment_amount] => 989
+                )
+
+        )
+
+)
+
+04-01-2020 @ 12:35:01 - Doing a transaction for order 819143...
+04-01-2020 @ 12:35:01 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => 
+    [acquirer_id] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2020-04-01T15:35:01.368Z
+    [date_updated] => 2020-04-01T15:35:01.368Z
+    [amount] => 6590
+    [authorized_amount] => 0
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 176476645
+    [cost] => 0
+    [card_holder_name] => Marlene a silva
+    [card_last_digits] => 0808
+    [card_first_digits] => 548573
+    [card_brand] => mastercard
+    [card_pin_mode] => 
+    [card_magstripe_fallback] => 
+    [cvm_pin] => 
+    [postback_url] => https://brechofashioncarioca.com.br/wc-api/WC_Pagarme_Credit_Card_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 177.55.120.7
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 21
+            [number] => 965174157
+            [id] => 60659646
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => Avenida de Santa Cruz
+            [complementary] => Ao lado casa lotérica sobrado
+            [street_number] => 1233
+            [neighborhood] => Realengo
+            [city] => Rio de Janeiro
+            [state] => RJ
+            [zipcode] => 21710231
+            [country] => Brasil
+            [id] => 76107909
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [id] => 93450036
+            [external_id] => 
+            [type] => 
+            [country] => 
+            [document_number] => 09041997709
+            [document_type] => cpf
+            [name] => Viviane Araújo da silva
+            [email] => vivisilvaaraujoo@gmail.com
+            [phone_numbers] => 
+            [born_at] => 1980-01-20T03:00:00.000Z
+            [birthday] => 
+            [gender] => F
+            [date_created] => 2020-04-01T15:35:01.271Z
+            [documents] => Array
+                (
+                )
+
+        )
+
+    [billing] => 
+    [shipping] => 
+    [items] => Array
+        (
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ck8hhrhen0495ox5x545fzwk2
+            [date_created] => 2020-04-01T15:35:01.343Z
+            [date_updated] => 2020-04-01T15:35:01.343Z
+            [brand] => mastercard
+            [holder_name] => Marlene a silva
+            [first_digits] => 548573
+            [last_digits] => 0808
+            [country] => BRAZIL
+            [fingerprint] => cjz1nbm9kadk10i240g84cqwd
+            [valid] => 
+            [expiration_date] => 0221
+        )
+
+    [split_rules] => 
+    [metadata] => Array
+        (
+            [order_number] => 819143
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+    [reference_key] => 
+    [device] => 
+    [local_transaction_id] => 
+    [local_time] => 
+    [fraud_covered] => 
+    [fraud_reimbursed] => 
+    [order_id] => 
+    [risk_level] => unknown
+    [receipt_url] => 
+    [payment] => 
+    [addition] => 
+    [discount] => 
+    [private_label] => 
+)
+
+04-01-2020 @ 12:35:01 - Payment status for order 819143 is now: processing
+04-01-2020 @ 12:35:05 - Payment status for order 819143 is now: paid

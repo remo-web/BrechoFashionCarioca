@@ -1,0 +1,876 @@
+03-27-2020 @ 22:47:17 - Getting the order installments...
+03-27-2020 @ 22:47:17 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 17940
+                    [installment_amount] => 17940
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 17940
+                    [installment_amount] => 8970
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 17940
+                    [installment_amount] => 5980
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 17940
+                    [installment_amount] => 4485
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 17940
+                    [installment_amount] => 3588
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 17940
+                    [installment_amount] => 2990
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 24219
+                    [installment_amount] => 3460
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 25116
+                    [installment_amount] => 3140
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 26013
+                    [installment_amount] => 2890
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 26910
+                    [installment_amount] => 2691
+                )
+
+        )
+
+)
+
+03-27-2020 @ 22:51:47 - Doing a transaction for order 819138...
+03-27-2020 @ 22:51:47 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => 
+    [acquirer_id] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2020-03-28T01:51:47.577Z
+    [date_updated] => 2020-03-28T01:51:47.577Z
+    [amount] => 17940
+    [authorized_amount] => 0
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 175281264
+    [cost] => 0
+    [card_holder_name] => maria tereza costa
+    [card_last_digits] => 6768
+    [card_first_digits] => 522840
+    [card_brand] => mastercard
+    [card_pin_mode] => 
+    [card_magstripe_fallback] => 
+    [cvm_pin] => 
+    [postback_url] => https://brechofashioncarioca.com.br/wc-api/WC_Pagarme_Credit_Card_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 177.55.120.7
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 12
+            [number] => 982725985
+            [id] => 60103786
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => dario vieira ... 337
+            [complementary] => casa 337
+            [street_number] => 337
+            [neighborhood] => vila cristiana
+            [city] => Piquete
+            [state] => SP
+            [zipcode] => 12620000
+            [country] => Brasil
+            [id] => 75404765
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [id] => 92589533
+            [external_id] => 
+            [type] => 
+            [country] => 
+            [document_number] => 10790976609
+            [document_type] => cpf
+            [name] => Maria Tereza
+            [email] => meninapoderosa33@gmail.com
+            [phone_numbers] => 
+            [born_at] => 1994-04-18T03:00:00.000Z
+            [birthday] => 
+            [gender] => F
+            [date_created] => 2020-03-28T01:51:47.489Z
+            [documents] => Array
+                (
+                )
+
+        )
+
+    [billing] => 
+    [shipping] => 
+    [items] => Array
+        (
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ck8ayle980kelqh64l2acjidb
+            [date_created] => 2020-03-28T01:51:47.564Z
+            [date_updated] => 2020-03-28T01:51:47.564Z
+            [brand] => mastercard
+            [holder_name] => maria tereza costa
+            [first_digits] => 522840
+            [last_digits] => 6768
+            [country] => BRAZIL
+            [fingerprint] => cjsmgfu8wnjjo0m71gag5yo4o
+            [valid] => 
+            [expiration_date] => 0423
+        )
+
+    [split_rules] => 
+    [metadata] => Array
+        (
+            [order_number] => 819138
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+    [reference_key] => 
+    [device] => 
+    [local_transaction_id] => 
+    [local_time] => 
+    [fraud_covered] => 
+    [fraud_reimbursed] => 
+    [order_id] => 
+    [risk_level] => unknown
+    [receipt_url] => 
+    [payment] => 
+    [addition] => 
+    [discount] => 
+    [private_label] => 
+)
+
+03-27-2020 @ 22:51:47 - Payment status for order 819138 is now: processing
+03-27-2020 @ 22:51:50 - Payment status for order 819138 is now: refused
+03-27-2020 @ 22:55:31 - Getting the order installments...
+03-27-2020 @ 22:55:31 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 13740
+                    [installment_amount] => 13740
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 13740
+                    [installment_amount] => 6870
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 13740
+                    [installment_amount] => 4580
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 13740
+                    [installment_amount] => 3435
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 13740
+                    [installment_amount] => 2748
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 13740
+                    [installment_amount] => 2290
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 18549
+                    [installment_amount] => 2650
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 19236
+                    [installment_amount] => 2405
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 19923
+                    [installment_amount] => 2214
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 20610
+                    [installment_amount] => 2061
+                )
+
+        )
+
+)
+
+03-27-2020 @ 23:08:44 - Getting the order installments...
+03-27-2020 @ 23:08:44 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 13740
+                    [installment_amount] => 13740
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 13740
+                    [installment_amount] => 6870
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 13740
+                    [installment_amount] => 4580
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 13740
+                    [installment_amount] => 3435
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 13740
+                    [installment_amount] => 2748
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 13740
+                    [installment_amount] => 2290
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 18549
+                    [installment_amount] => 2650
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 19236
+                    [installment_amount] => 2405
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 19923
+                    [installment_amount] => 2214
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 20610
+                    [installment_amount] => 2061
+                )
+
+        )
+
+)
+
+03-27-2020 @ 23:08:44 - Doing a transaction for order 819139...
+03-27-2020 @ 23:08:45 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => 
+    [acquirer_id] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2020-03-28T02:08:45.095Z
+    [date_updated] => 2020-03-28T02:08:45.095Z
+    [amount] => 13740
+    [authorized_amount] => 0
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 175283725
+    [cost] => 0
+    [card_holder_name] => maria tereza costa
+    [card_last_digits] => 9082
+    [card_first_digits] => 459383
+    [card_brand] => visa
+    [card_pin_mode] => 
+    [card_magstripe_fallback] => 
+    [cvm_pin] => 
+    [postback_url] => https://brechofashioncarioca.com.br/wc-api/WC_Pagarme_Credit_Card_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 177.55.120.7
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 12
+            [number] => 982725985
+            [id] => 60105029
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => dario vieira ... 337
+            [complementary] => casa 337
+            [street_number] => 337
+            [neighborhood] => vila cristiana
+            [city] => Piquete
+            [state] => SP
+            [zipcode] => 12620000
+            [country] => Brasil
+            [id] => 75406352
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [id] => 92591427
+            [external_id] => 
+            [type] => 
+            [country] => 
+            [document_number] => 10790976609
+            [document_type] => cpf
+            [name] => Maria Tereza
+            [email] => meninapoderosa33@gmail.com
+            [phone_numbers] => 
+            [born_at] => 1994-04-18T03:00:00.000Z
+            [birthday] => 
+            [gender] => F
+            [date_created] => 2020-03-28T02:08:45.013Z
+            [documents] => Array
+                (
+                )
+
+        )
+
+    [billing] => 
+    [shipping] => 
+    [items] => Array
+        (
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ck8az77dj0k1pum5z2woj41ei
+            [date_created] => 2020-03-28T02:08:45.080Z
+            [date_updated] => 2020-03-28T02:08:45.080Z
+            [brand] => visa
+            [holder_name] => maria tereza costa
+            [first_digits] => 459383
+            [last_digits] => 9082
+            [country] => BRAZIL
+            [fingerprint] => cjsynnjp4laxq0m71s978nmhb
+            [valid] => 
+            [expiration_date] => 1123
+        )
+
+    [split_rules] => 
+    [metadata] => Array
+        (
+            [order_number] => 819139
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+    [reference_key] => 
+    [device] => 
+    [local_transaction_id] => 
+    [local_time] => 
+    [fraud_covered] => 
+    [fraud_reimbursed] => 
+    [order_id] => 
+    [risk_level] => unknown
+    [receipt_url] => 
+    [payment] => 
+    [addition] => 
+    [discount] => 
+    [private_label] => 
+)
+
+03-27-2020 @ 23:08:45 - Payment status for order 819139 is now: processing
+03-27-2020 @ 23:08:48 - Payment status for order 819139 is now: refused
+03-27-2020 @ 23:18:12 - Getting the order installments...
+03-27-2020 @ 23:18:12 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 11930
+                    [installment_amount] => 11930
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 11930
+                    [installment_amount] => 5965
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 11930
+                    [installment_amount] => 3977
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 11930
+                    [installment_amount] => 2983
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 11930
+                    [installment_amount] => 2386
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 11930
+                    [installment_amount] => 1988
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 16106
+                    [installment_amount] => 2301
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 16702
+                    [installment_amount] => 2088
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 17299
+                    [installment_amount] => 1922
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 17895
+                    [installment_amount] => 1790
+                )
+
+        )
+
+)
+
+03-27-2020 @ 23:33:48 - Getting the order installments...
+03-27-2020 @ 23:33:48 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 11930
+                    [installment_amount] => 11930
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 11930
+                    [installment_amount] => 5965
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 11930
+                    [installment_amount] => 3977
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 11930
+                    [installment_amount] => 2983
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 11930
+                    [installment_amount] => 2386
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 11930
+                    [installment_amount] => 1988
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 16106
+                    [installment_amount] => 2301
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 16702
+                    [installment_amount] => 2088
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 17299
+                    [installment_amount] => 1922
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 17895
+                    [installment_amount] => 1790
+                )
+
+        )
+
+)
+
+03-27-2020 @ 23:33:48 - Doing a transaction for order 819140...
+03-27-2020 @ 23:33:48 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => 
+    [acquirer_id] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2020-03-28T02:33:48.554Z
+    [date_updated] => 2020-03-28T02:33:48.554Z
+    [amount] => 11930
+    [authorized_amount] => 0
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 175287059
+    [cost] => 0
+    [card_holder_name] => maria tereza costa
+    [card_last_digits] => 4028
+    [card_first_digits] => 459383
+    [card_brand] => visa
+    [card_pin_mode] => 
+    [card_magstripe_fallback] => 
+    [cvm_pin] => 
+    [postback_url] => https://brechofashioncarioca.com.br/wc-api/WC_Pagarme_Credit_Card_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 177.55.120.7
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 12
+            [number] => 982725985
+            [id] => 60106783
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => dario vieira ... 337
+            [complementary] => casa 337
+            [street_number] => 337
+            [neighborhood] => vila cristiana
+            [city] => Piquete
+            [state] => SP
+            [zipcode] => 12620000
+            [country] => Brasil
+            [id] => 75408551
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [id] => 92593997
+            [external_id] => 
+            [type] => 
+            [country] => 
+            [document_number] => 10790976609
+            [document_type] => cpf
+            [name] => Maria Tereza
+            [email] => meninapoderosa33@gmail.com
+            [phone_numbers] => 
+            [born_at] => 1994-04-18T03:00:00.000Z
+            [birthday] => 
+            [gender] => F
+            [date_created] => 2020-03-28T02:33:48.469Z
+            [documents] => Array
+                (
+                )
+
+        )
+
+    [billing] => 
+    [shipping] => 
+    [items] => Array
+        (
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ck8b03fgb0krdme5xuzrgtj8n
+            [date_created] => 2020-03-28T02:33:48.539Z
+            [date_updated] => 2020-03-28T02:33:48.539Z
+            [brand] => visa
+            [holder_name] => maria tereza costa
+            [first_digits] => 459383
+            [last_digits] => 4028
+            [country] => BRAZIL
+            [fingerprint] => ck17w6li0orkb0h07l23wzhx6
+            [valid] => 
+            [expiration_date] => 1122
+        )
+
+    [split_rules] => 
+    [metadata] => Array
+        (
+            [order_number] => 819140
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+    [reference_key] => 
+    [device] => 
+    [local_transaction_id] => 
+    [local_time] => 
+    [fraud_covered] => 
+    [fraud_reimbursed] => 
+    [order_id] => 
+    [risk_level] => unknown
+    [receipt_url] => 
+    [payment] => 
+    [addition] => 
+    [discount] => 
+    [private_label] => 
+)
+
+03-27-2020 @ 23:33:48 - Payment status for order 819140 is now: processing
+03-27-2020 @ 23:33:51 - Payment status for order 819140 is now: refused
+03-28-2020 @ 12:07:36 - Getting the order installments...
+03-28-2020 @ 12:07:36 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 14100
+                    [installment_amount] => 14100
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 14100
+                    [installment_amount] => 7050
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 14100
+                    [installment_amount] => 4700
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 14100
+                    [installment_amount] => 3525
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 14100
+                    [installment_amount] => 2820
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 14100
+                    [installment_amount] => 2350
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 19035
+                    [installment_amount] => 2719
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 19740
+                    [installment_amount] => 2468
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 20445
+                    [installment_amount] => 2272
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 21150
+                    [installment_amount] => 2115
+                )
+
+        )
+
+)
+

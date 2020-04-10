@@ -1,0 +1,11 @@
+2020-03-14T13:06:57+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id d74860ab50d926b33bff1ad813f16eba
+2020-03-14T13:06:58+00:00 NOTICE abandoned_cart.success :: email: monig100@outlook.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=d74860ab50d926b33bff1ad813f16eba
+2020-03-14T13:07:19+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 45
+2020-03-14T13:07:50+00:00 NOTICE member.sync :: Updated Member monig100@outlook.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+        )
+
+)
+

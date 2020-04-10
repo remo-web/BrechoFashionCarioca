@@ -1,0 +1,99 @@
+03-30-2020 @ 13:03:00 - Weight and cubage of the order: Array
+(
+    [weight] => 0,6
+    [height] => 10,5
+    [width] => 11
+    [length] => 20
+)
+
+03-30-2020 @ 13:03:00 - Weight and cubage of the order: Array
+(
+    [weight] => 0,6
+    [height] => 10,5
+    [width] => 11
+    [length] => 20
+)
+
+03-30-2020 @ 13:03:00 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=20551080&sCepOrigem=22640100&nVlAltura=36&nVlLargura=27&nVlDiametro=0&nVlComprimento=20&nVlPeso=0,8&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=600&sCdAvisoRecebimento=N&StrRetorno=xml
+03-30-2020 @ 13:03:00 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=20551080&sCepOrigem=22640100&nVlAltura=36&nVlLargura=27&nVlDiametro=0&nVlComprimento=20&nVlPeso=0,8&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=600&sCdAvisoRecebimento=N&StrRetorno=xml
+03-30-2020 @ 13:03:00 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 32,59
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 11,59
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+
+03-30-2020 @ 13:03:00 - Weight and cubage of the order: Array
+(
+    [weight] => 0,6
+    [height] => 10,5
+    [width] => 11
+    [length] => 20
+)
+
+03-30-2020 @ 13:03:00 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=20551080&sCepOrigem=22640100&nVlAltura=36&nVlLargura=27&nVlDiametro=0&nVlComprimento=20&nVlPeso=0,8&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=600&sCdAvisoRecebimento=N&StrRetorno=xml
+03-30-2020 @ 13:03:01 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 32,59
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 11,59
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => Suspensão da Gestão de Conferência Eletrônica.
+            [Erro] => 011
+            [MsgErro] => Suspensão da Gestão de Conferência Eletrônica.
+        )
+
+)
+
+03-30-2020 @ 13:03:07 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 32,59
+            [PrazoEntrega] => 8
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 11,59
+            [EntregaDomiciliar] => S
+            [EntregaSabado] => N
+            [obsFim] => SimpleXMLElement Object
+                (
+                )
+
+            [Erro] => 0
+            [MsgErro] => SimpleXMLElement Object
+                (
+                )
+
+        )
+
+)
+

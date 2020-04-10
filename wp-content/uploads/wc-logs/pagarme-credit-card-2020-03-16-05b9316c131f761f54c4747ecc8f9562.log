@@ -1,0 +1,450 @@
+03-16-2020 @ 16:41:24 - Getting the order installments...
+03-16-2020 @ 16:41:25 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 30990
+                    [installment_amount] => 30990
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 30990
+                    [installment_amount] => 15495
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 30990
+                    [installment_amount] => 10330
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 30990
+                    [installment_amount] => 7748
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 30990
+                    [installment_amount] => 6198
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 30990
+                    [installment_amount] => 5165
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 41837
+                    [installment_amount] => 5977
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 43386
+                    [installment_amount] => 5423
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 44936
+                    [installment_amount] => 4993
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 46485
+                    [installment_amount] => 4649
+                )
+
+        )
+
+)
+
+03-16-2020 @ 16:49:45 - Getting the order installments...
+03-16-2020 @ 16:49:45 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 16000
+                    [installment_amount] => 16000
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 16000
+                    [installment_amount] => 8000
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 16000
+                    [installment_amount] => 5333
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 16000
+                    [installment_amount] => 4000
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 16000
+                    [installment_amount] => 3200
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 16000
+                    [installment_amount] => 2667
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 21600
+                    [installment_amount] => 3086
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 22400
+                    [installment_amount] => 2800
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 23200
+                    [installment_amount] => 2578
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 24000
+                    [installment_amount] => 2400
+                )
+
+        )
+
+)
+
+03-16-2020 @ 17:24:29 - Getting the order installments...
+03-16-2020 @ 17:24:29 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 15250
+                    [installment_amount] => 15250
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 15250
+                    [installment_amount] => 7625
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 15250
+                    [installment_amount] => 5083
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 15250
+                    [installment_amount] => 3813
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 15250
+                    [installment_amount] => 3050
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 15250
+                    [installment_amount] => 2542
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 20588
+                    [installment_amount] => 2941
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 21350
+                    [installment_amount] => 2669
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 22113
+                    [installment_amount] => 2457
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 22875
+                    [installment_amount] => 2288
+                )
+
+        )
+
+)
+
+03-16-2020 @ 18:16:49 - Getting the order installments...
+03-16-2020 @ 18:16:50 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 17100
+                    [installment_amount] => 17100
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 17100
+                    [installment_amount] => 8550
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 17100
+                    [installment_amount] => 5700
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 17100
+                    [installment_amount] => 4275
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 17100
+                    [installment_amount] => 3420
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 17100
+                    [installment_amount] => 2850
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 23085
+                    [installment_amount] => 3298
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 23940
+                    [installment_amount] => 2993
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 24795
+                    [installment_amount] => 2755
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 25650
+                    [installment_amount] => 2565
+                )
+
+        )
+
+)
+
+03-16-2020 @ 18:21:03 - Doing a transaction for order 818918...
+03-16-2020 @ 18:21:04 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => 
+    [acquirer_id] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2020-03-16T21:21:04.556Z
+    [date_updated] => 2020-03-16T21:21:04.556Z
+    [amount] => 17100
+    [authorized_amount] => 0
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 172712587
+    [cost] => 0
+    [card_holder_name] => Tais Archanjo 
+    [card_last_digits] => 1921
+    [card_first_digits] => 453211
+    [card_brand] => visa
+    [card_pin_mode] => 
+    [card_magstripe_fallback] => 
+    [cvm_pin] => 
+    [postback_url] => https://brechofashioncarioca.com.br/wc-api/WC_Pagarme_Credit_Card_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 177.55.120.7
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 21
+            [number] => 982386295
+            [id] => 59006587
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => Rua Mapendi
+            [complementary] => Bloco 04 apt 105
+            [street_number] => 366
+            [neighborhood] => Taquara
+            [city] => Rio de Janeiro
+            [state] => RJ
+            [zipcode] => 22710255
+            [country] => Brasil
+            [id] => 73973126
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [id] => 90867532
+            [external_id] => 
+            [type] => 
+            [country] => 
+            [document_number] => 11423645774
+            [document_type] => cpf
+            [name] => Taís Prates
+            [email] => taisprates2000@gmail.com
+            [phone_numbers] => 
+            [born_at] => 1985-11-07T02:00:00.000Z
+            [birthday] => 
+            [gender] => F
+            [date_created] => 2020-03-16T21:21:04.472Z
+            [documents] => Array
+                (
+                )
+
+        )
+
+    [billing] => 
+    [shipping] => 
+    [items] => Array
+        (
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ck7uz2vpy3r6kwy628rykjupc
+            [date_created] => 2020-03-16T21:21:04.534Z
+            [date_updated] => 2020-03-16T21:21:04.534Z
+            [brand] => visa
+            [holder_name] => Tais Archanjo 
+            [first_digits] => 453211
+            [last_digits] => 1921
+            [country] => BRAZIL
+            [fingerprint] => ck7uz2vb42g880j64eigv15zb
+            [valid] => 
+            [expiration_date] => 0124
+        )
+
+    [split_rules] => 
+    [metadata] => Array
+        (
+            [order_number] => 818918
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+    [reference_key] => 
+    [device] => 
+    [local_transaction_id] => 
+    [local_time] => 
+    [fraud_covered] => 
+    [fraud_reimbursed] => 
+    [order_id] => 
+    [risk_level] => unknown
+    [receipt_url] => 
+    [payment] => 
+    [addition] => 
+    [discount] => 
+    [private_label] => 
+)
+
+03-16-2020 @ 18:21:04 - Payment status for order 818918 is now: processing
+03-16-2020 @ 18:21:07 - Payment status for order 818918 is now: paid

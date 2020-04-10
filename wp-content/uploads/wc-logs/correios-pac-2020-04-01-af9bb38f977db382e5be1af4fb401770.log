@@ -1,0 +1,116 @@
+04-01-2020 @ 11:59:19 - Weight and cubage of the order: Array
+(
+    [weight] => 0,2
+    [height] => 6,5
+    [width] => 26
+    [length] => 16
+)
+
+04-01-2020 @ 11:59:19 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=21710231&sCepOrigem=22640100&nVlAltura=6,5&nVlLargura=26&nVlDiametro=0&nVlComprimento=16&nVlPeso=0,3&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0&sCdAvisoRecebimento=N&StrRetorno=xml
+04-01-2020 @ 11:59:19 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 21,00
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+        )
+
+)
+
+04-01-2020 @ 12:01:33 - Weight and cubage of the order: Array
+(
+    [weight] => 0,2
+    [height] => 6,5
+    [width] => 26
+    [length] => 16
+)
+
+04-01-2020 @ 12:01:33 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=21710231&sCepOrigem=22640100&nVlAltura=6,5&nVlLargura=26&nVlDiametro=0&nVlComprimento=16&nVlPeso=0,3&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0&sCdAvisoRecebimento=N&StrRetorno=xml
+04-01-2020 @ 12:01:34 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 21,00
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+        )
+
+)
+
+04-01-2020 @ 12:01:41 - Weight and cubage of the order: Array
+(
+    [weight] => 0,2
+    [height] => 6,5
+    [width] => 26
+    [length] => 16
+)
+
+04-01-2020 @ 12:01:41 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=21710231&sCepOrigem=22640100&nVlAltura=6,5&nVlLargura=26&nVlDiametro=0&nVlComprimento=16&nVlPeso=0,3&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0&sCdAvisoRecebimento=N&StrRetorno=xml
+04-01-2020 @ 12:01:41 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 21,00
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+        )
+
+)
+
+04-01-2020 @ 12:34:55 - Weight and cubage of the order: Array
+(
+    [weight] => 0,2
+    [height] => 6,5
+    [width] => 26
+    [length] => 16
+)
+
+04-01-2020 @ 12:34:55 - Requesting Correios WebServices: http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?nCdServico=04510&nCdEmpresa&sDsSenha&sCepDestino=21710231&sCepOrigem=22640100&nVlAltura=6,5&nVlLargura=26&nVlDiametro=0&nVlComprimento=16&nVlPeso=0,3&nCdFormato=1&sCdMaoPropria=N&nVlValorDeclarado=0&sCdAvisoRecebimento=N&StrRetorno=xml
+04-01-2020 @ 12:34:58 - Correios WebServices response: SimpleXMLElement Object
+(
+    [cServico] => SimpleXMLElement Object
+        (
+            [Codigo] => 04510
+            [Valor] => 21,00
+            [PrazoEntrega] => 9
+            [ValorSemAdicionais] => 21,00
+            [ValorMaoPropria] => 0,00
+            [ValorAvisoRecebimento] => 0,00
+            [ValorValorDeclarado] => 0,00
+            [EntregaDomiciliar] => N
+            [EntregaSabado] => N
+            [obsFim] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+            [Erro] => 010
+            [MsgErro] => O CEP de destino está temporariamente sem entrega domiciliar. A entrega será efetuada na agência indicada no Aviso de Chegada que será entregue no endereço do destinatário.
+        )
+
+)
+

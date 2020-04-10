@@ -1,0 +1,452 @@
+03-26-2020 @ 18:44:10 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:44:10 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => CX1j3dtJUiD
+    [x-fb-request-id] => AkvuZwEHcgb-6vPI0FeMctr
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => AmLTITxR9KK9ivucvYiYdka82tOzbNBSf44HFu5qQeVeKRxL7BO8GMf2/60nKSLRvpCyeXQ0pX16HBDYnbC/0g==
+    [date] => Thu, 26 Mar 2020 21:44:10 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:44:10 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:44:10 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HG1c1/WUASH
+    [x-fb-request-id] => AyVBxZN5iRXt7LlePep9b8n
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => NPoM8tYJ1E+c7x/OQKog1vYP9r/hEO0Nf79GlEVuwwS2rSwG+B91qvynmeeD8NhunSW2DA2IvuTdyzdnkb5BpA==
+    [date] => Thu, 26 Mar 2020 21:44:10 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:44:11 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:44:11 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Akjwv11+0Qa
+    [x-fb-request-id] => AngxsWLTX1sLo3sfB-KIAM6
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ZQlARl1mq/mfDNMwA3VZ6Br9kqq7L/44nJPwQV3aCC/gHbZevRXcTTXBheBM3dq/DtlOtPD2HvkbEuYXXjkovg==
+    [date] => Thu, 26 Mar 2020 21:44:11 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:44:11 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:44:11 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => C3EOWL7LTZK
+    [x-fb-request-id] => A8VQ7IWogbLwfllJ2-vkhdW
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => VW0zZL1UGgS+BIClFKLbjmVBaeK7RijdtcrPZ4Hz6zYoeb8SUDP3q3nqHVi64dcMlOL++fRHb2TB40halG0NIQ==
+    [date] => Thu, 26 Mar 2020 21:44:11 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:44:11 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=link
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:44:11 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "002b197d1af5145ff979a44010faa0e69e297562"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FcjjtE8PIgt
+    [x-fb-request-id] => AgBPKI0DMu27RgDrFXV5rYT
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 4w7detkvJUWrSVmbgzdyPBURz5+LobRFEyOGw5IjZZsRCq3IVY/Lsm1AoOrOWO/vlq+p/N7jkt8losOyQokUeA==
+    [date] => Thu, 26 Mar 2020 21:44:11 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 85
+)
+body: {"link":"https:\/\/www.facebook.com\/brechofashioncarioca\/","id":"1485074705039771"}
+
+03-26-2020 @ 18:58:35 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:58:35 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GFNq5QJRUTX
+    [x-fb-request-id] => A10yd9t1KtmqpybB1_vNCUu
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => pUg3ssRKAwB7VVi7OwYLg0KlbF4MYZx9kFQz4xsPFM5MGFEPle9uD+OOi4rar3aOXVMzwSZ/A4fsmd5f5EwqQw==
+    [date] => Thu, 26 Mar 2020 21:58:35 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:58:35 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:58:35 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GPXdUUTv65B
+    [x-fb-request-id] => Aa5WoLWrGepTuWmG-as4tNK
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => lgm4VnZ/x1yGzhu0JR793LBqcZNLtDpUZNWB5d8Bj4SfRE0xp6q3emV+2N6BXleRjB4XNi9DxBB9tSyo5ly0nw==
+    [date] => Thu, 26 Mar 2020 21:58:35 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:58:35 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:58:35 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => AeCoqcGYqvg
+    [x-fb-request-id] => A7OoZxjAp8I8FZT6pjHzpAZ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => A6Uv6qpZOZWSaeIUe1aJNB3NPxhuhvqinW2azQ7+UB8jOH6h8vMu7RA3FZs8FSnFYfbF1XDZBo7E+C23Ynbm8A==
+    [date] => Thu, 26 Mar 2020 21:58:35 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:58:36 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=name
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:58:36 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "eaf42dc8d75eb9443552a27e76604e93fe41b7af"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HIxswsX4lAQ
+    [x-fb-request-id] => ASU-oURp2yfymuGVLtQTuuU
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => UM8p+WfmSx8bvrEzlSE4dB+o5IurQ6v0Bs6XM9jPE1OX0tKnavyY7uHpMjNu5Sv4S6YhEnFEilNKg6nmtVjOvQ==
+    [date] => Thu, 26 Mar 2020 21:58:36 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 62
+)
+body: {"name":"Brech\u00f3 Fashion Carioca","id":"1485074705039771"}
+
+03-26-2020 @ 18:58:36 - Request
+Request
+uri: https://graph.facebook.com/v2.9/1485074705039771/?fields=link
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:58:36 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "002b197d1af5145ff979a44010faa0e69e297562"
+    [x-business-use-case-usage] => {"1485074705039771":[{"type":"pages","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DLAdJCHpPOl
+    [x-fb-request-id] => A9JVO3kwk0CEniZUIp0IxOI
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => mUaaYRo2HkCpqsjAHsalFHhzYrfHddyCcLfvCdSBW1oMyX6Frpy1QM2FXAoKq5Ze8OET0lIOInte4iIzqONt6Q==
+    [date] => Thu, 26 Mar 2020 21:58:36 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 85
+)
+body: {"link":"https:\/\/www.facebook.com\/brechofashioncarioca\/","id":"1485074705039771"}
+
+03-26-2020 @ 18:58:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+
+03-26-2020 @ 18:58:46 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [etag] => "f862272449239b3a1d945c06fa0bd0fa5e379592"
+    [x-business-use-case-usage] => {"303959530320711":[{"type":"ads_management","call_count":0,"total_cputime":0,"total_time":0,"estimated_time_to_regain_access":0}]}
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => CHepxCg9aCh
+    [x-fb-request-id] => A6bzx6KNZPWyDqJgD--geSC
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ErjU6f9t4pqdCxxlpjm6A8KJ1tAm8My3EzaoXb3O7ZJ1MbgQjkMvfmKot6LylVQzokoyx7JQ/mF/l0uVlXbCjg==
+    [date] => Thu, 26 Mar 2020 21:58:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 87
+)
+body: {"id":"303959530320711","name":"Brech\u00f3 Multimarcas Fashion Carioca - WooCommerce"}
+
+03-26-2020 @ 18:58:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Sync all products using feed","object":[]}
+    [error] => 
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+03-26-2020 @ 18:58:46 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => H+KOYpNxfis
+    [x-fb-request-id] => Auyx0OMDBMKMVT1Ze-s2bN8
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => Axfl1zTgEM7H0ROcRxqgqyT6fx/870W4G2kpEFIACvrTvQXxjrqS5uaba1sOI1TaJOxv+tntBXgLZFIwwqIfBA==
+    [date] => Thu, 26 Mar 2020 21:58:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+03-26-2020 @ 18:58:46 - Sync all products using feed
+03-26-2020 @ 18:58:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Generating product feed file","object":[]}
+    [error] => 
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+03-26-2020 @ 18:58:46 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001903689
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FzqiLOKmgxf
+    [x-fb-request-id] => Arned2CKJtEQ65L7SESDKz9
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => OD5a3pRR7oBupCnZ0FuQHAeUXaCz6TOvcDM+GQ0OdS+yAhQX+mDEgU209tOkjmXsd+oGiMKng5IkMvTmZe/0uA==
+    [date] => Thu, 26 Mar 2020 21:58:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+03-26-2020 @ 18:58:46 - Generating product feed file

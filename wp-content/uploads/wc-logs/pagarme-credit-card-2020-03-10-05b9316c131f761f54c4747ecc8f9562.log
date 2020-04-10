@@ -1,0 +1,79 @@
+03-10-2020 @ 19:20:52 - Getting the order installments...
+03-10-2020 @ 19:20:53 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 12000
+                    [installment_amount] => 12000
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 12000
+                    [installment_amount] => 6000
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 12000
+                    [installment_amount] => 4000
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 12000
+                    [installment_amount] => 3000
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 12000
+                    [installment_amount] => 2400
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 12000
+                    [installment_amount] => 2000
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 16200
+                    [installment_amount] => 2314
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 16800
+                    [installment_amount] => 2100
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 17400
+                    [installment_amount] => 1933
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 18000
+                    [installment_amount] => 1800
+                )
+
+        )
+
+)
+

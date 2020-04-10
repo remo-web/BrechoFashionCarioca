@@ -1,0 +1,237 @@
+03-17-2020 @ 13:39:03 - Getting the order installments...
+03-17-2020 @ 13:39:04 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 14480
+                    [installment_amount] => 14480
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 14480
+                    [installment_amount] => 7240
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 14480
+                    [installment_amount] => 4827
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 14480
+                    [installment_amount] => 3620
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 14480
+                    [installment_amount] => 2896
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 14480
+                    [installment_amount] => 2413
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 19548
+                    [installment_amount] => 2793
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 20272
+                    [installment_amount] => 2534
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 20996
+                    [installment_amount] => 2333
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 21720
+                    [installment_amount] => 2172
+                )
+
+        )
+
+)
+
+03-17-2020 @ 13:44:06 - Getting the order installments...
+03-17-2020 @ 13:44:07 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 12000
+                    [installment_amount] => 12000
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 12000
+                    [installment_amount] => 6000
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 12000
+                    [installment_amount] => 4000
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 12000
+                    [installment_amount] => 3000
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 12000
+                    [installment_amount] => 2400
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 12000
+                    [installment_amount] => 2000
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 16200
+                    [installment_amount] => 2314
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 16800
+                    [installment_amount] => 2100
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 17400
+                    [installment_amount] => 1933
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 18000
+                    [installment_amount] => 1800
+                )
+
+        )
+
+)
+
+03-17-2020 @ 13:44:57 - Getting the order installments...
+03-17-2020 @ 13:44:58 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 14100
+                    [installment_amount] => 14100
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 14100
+                    [installment_amount] => 7050
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 14100
+                    [installment_amount] => 4700
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 14100
+                    [installment_amount] => 3525
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 14100
+                    [installment_amount] => 2820
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 14100
+                    [installment_amount] => 2350
+                )
+
+            [7] => Array
+                (
+                    [installment] => 7
+                    [amount] => 19035
+                    [installment_amount] => 2719
+                )
+
+            [8] => Array
+                (
+                    [installment] => 8
+                    [amount] => 19740
+                    [installment_amount] => 2468
+                )
+
+            [9] => Array
+                (
+                    [installment] => 9
+                    [amount] => 20445
+                    [installment_amount] => 2272
+                )
+
+            [10] => Array
+                (
+                    [installment] => 10
+                    [amount] => 21150
+                    [installment_amount] => 2115
+                )
+
+        )
+
+)
+

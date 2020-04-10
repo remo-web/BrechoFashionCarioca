@@ -1,0 +1,3759 @@
+04-06-2020 @ 16:58:45 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:58:45 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => H2qBfXHS3VR
+    [x-fb-request-id] => AYeod7q1G56G66G4GKgDMQX
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => f4SJuYR3JjHzVldIlAcWnHN0JebETSbxjjvw7N3FmCo7U39NeoTqvbUlUIItbqnUIo+B9vrw8rmUuQEwdukflw==
+    [date] => Mon, 06 Apr 2020 19:58:45 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:58:45 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75389_817496
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:58:45 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => BARzlAJgNnM
+    [x-fb-request-id] => AVvSQ4MMdiZ9f1IUdkb1ile
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ClQzEyUbOMcL8Or63KUc/yHz+Dm0XUakI1P7eqiEAM+VgZrxH40tDRUHcvuDtUcRgsu1r/lweYM6MT4zckd5WA==
+    [date] => Mon, 06 Apr 2020 19:58:45 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3387866091227096"}
+
+04-06-2020 @ 16:58:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3387866091227096/products
+body: Array
+(
+    [name] => Vestido (Renda/Off White/Salmao) - TAM M | My Philosophy
+    [description] => TAMANHO M 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75389.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/vestido-renda-off-white-salmao-my-philosophy/
+    [category] => Roupas, Vestidos
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75389_817496
+    [price] => 6990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817496
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 6990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:58:46 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => HLujo9O81Dh
+    [x-fb-request-id] => Aze3ljAh_pic5EaYshFHgbp
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => xCqKUATt23DNYcX2yK6ACAIbchFeKvwk7Y7YvpbI/SyyHzk/HdLarH5DbuQ469/B30UWG1Lhq7yf5RpHBuXEGA==
+    [date] => Mon, 06 Apr 2020 19:58:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 240
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"Aze3ljAh_pic5EaYshFHgbp"}}
+
+04-06-2020 @ 16:58:46 - Invalid parameter
+04-06-2020 @ 16:58:46 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Aze3ljAh_pic5EaYshFHgbp\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 16:58:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Aze3ljAh_pic5EaYshFHgbp\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Vestido (Renda\/Off White\/Salmao) - TAM M | My Philosophy","description":"TAMANHO M \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75389.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/vestido-renda-off-white-salmao-my-philosophy\/","category":"Roupas, Vestidos","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75389_817496","price":6990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817496","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":6990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:58:46 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DF+MGNLdlXA
+    [x-fb-request-id] => AyuvWOL7tRvnbL5lBq1JOQT
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => gEwZkk5wPByB5+5zIsNUAnd8ossAJPWHtBZw9me/Qp/o657a2fdY4yP9rFyh6eqMnhf1MMrPj5QqPZVXTo1cuQ==
+    [date] => Mon, 06 Apr 2020 19:58:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:58:50 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:58:50 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => C68n30+VyrJ
+    [x-fb-request-id] => AuuM8c0rUDysp5X9fzQ9nBa
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => GNdg3EPRUmdu2mRXiPocvfrixJpvgxqG8DgEi+Mj4vzXyVLrOx/HexaWn/rDUsAw8YtrB5Flf0vjmjvBLr2L1Q==
+    [date] => Mon, 06 Apr 2020 19:58:50 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:59:13 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:13 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GkhmABMYSm8
+    [x-fb-request-id] => Asz2GTJiCaXSNc7Okt4FurO
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => +73Tz+FV1lRJwZByBhEES9E+qgaCpv1T2GDbbVA7JKIJZPd/lxONbNTB/M+FblOpi1HZFO6DkfGudcwCKI4APA==
+    [date] => Mon, 06 Apr 2020 19:59:13 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:59:14 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75441_817392
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:14 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FExr9DcjBGe
+    [x-fb-request-id] => ATaWIRdiopgTbaTiBEVoeyo
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => wA49Yw1mjpVEH0hoaoca0SkKGIGCYKr+UV+S8qDx95HA/DkVSFw1JHU/mpK93V06uKrZjDzFy7hIdcgtYLYymQ==
+    [date] => Mon, 06 Apr 2020 19:59:14 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3039346526122662"}
+
+04-06-2020 @ 16:59:14 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3039346526122662/products
+body: Array
+(
+    [name] => Macacao Floral / Geometrico - TAM M | Farm
+    [description] => TAMANHO M 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75441.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/macacao-floral-geometrico-farm/
+    [category] => Roupas, Macacões
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75441_817392
+    [price] => 8990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817392
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 8990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:14 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => HBxzLch6QU+
+    [x-fb-request-id] => AgzJjwFjpfUbznbBtqUj69a
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => GQ3QKpsAUn5Y35RhtIluCNLF1M3/QWIz7foyEQaG67DzYcEcfQJL27FGC1/8XrsYONJU60TePfpR8AsgaRPDNg==
+    [date] => Mon, 06 Apr 2020 19:59:14 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 241
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AgzJjwFjpfUbznbBtqUj69a"}}
+
+04-06-2020 @ 16:59:14 - Invalid parameter
+04-06-2020 @ 16:59:14 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AgzJjwFjpfUbznbBtqUj69a\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 16:59:15 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AgzJjwFjpfUbznbBtqUj69a\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Macacao Floral \/ Geometrico - TAM M | Farm","description":"TAMANHO M \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75441.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/macacao-floral-geometrico-farm\/","category":"Roupas, Macac\u00f5es","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75441_817392","price":8990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817392","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":8990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:15 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Cwf/2RnPsSE
+    [x-fb-request-id] => ApZQfJ43MTVaA1KIHkI75SQ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => OhI6Va+dv8mRL1E7gacljqQKMUxap/ki5TrIO1QMZXCkJ/cCTrWyjn4kABMbEDPmABDS1uYejcDogaBNUlvTww==
+    [date] => Mon, 06 Apr 2020 19:59:15 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:59:19 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:19 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DJF+xSv71Yo
+    [x-fb-request-id] => AVXmVDfivko8qMoNXX3-yy0
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => /eLsifsB3P5Fmulf9Cj/cIA5c//2JBYK+74es1p8S0Cy5T0cw1UHfkivrlcj2kYx2n0eZuNPzrKr53rtOss1Mw==
+    [date] => Mon, 06 Apr 2020 19:59:19 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:59:43 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:43 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => BxnsbziSHH/
+    [x-fb-request-id] => AAhqbuZ4k36vxCy3P24kBxm
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => H1AUFvpEGjA8sUoRrJbVo8pccBeG5jcSiGtj8HlCtgEiHeaBCNl3zaj3PdyaitN/hcVCrhbVHxHBFFOTyK7vVg==
+    [date] => Mon, 06 Apr 2020 19:59:43 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:59:44 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75446_817386
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:44 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GsnyzgKS/LF
+    [x-fb-request-id] => AuvfFRVlTR1pl_ERy4qKN3B
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => Zt/bwtB4Cb/X1Vx3k/OhGvux1QHYDODyEzScP8mQ/tgZ/aqnZjCt2fjIS7p9wdCFqFaaAO9f623aOTzFG7p63g==
+    [date] => Mon, 06 Apr 2020 19:59:44 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2973552442703881"}
+
+04-06-2020 @ 16:59:45 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2973552442703881/products
+body: Array
+(
+    [name] => Vestido Preto (Bordado Paetes) - TAM G | Bella
+    [description] => TAMANHO G 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75446.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/vestido-preto-bordado-paetes-bella/
+    [category] => Roupas, Vestidos
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75446_817386
+    [price] => 12000
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817386
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 12000
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:45 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => HodbkIlkj3t
+    [x-fb-request-id] => ArI66uJslnDIj4zXCq5fdSf
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => uHofWvZUSixCmMrSdKJMLvxF1sqtlRZKWCdmSj4jyZQ3jA1NlLZY1N9hV/BzblcIF8M82x+r91sibQR8WZ0xhw==
+    [date] => Mon, 06 Apr 2020 19:59:45 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 242
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"ArI66uJslnDIj4zXCq5fdSf"}}
+
+04-06-2020 @ 16:59:45 - Invalid parameter
+04-06-2020 @ 16:59:45 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ArI66uJslnDIj4zXCq5fdSf\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 16:59:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ArI66uJslnDIj4zXCq5fdSf\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Vestido Preto (Bordado Paetes) - TAM G | Bella","description":"TAMANHO G \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75446.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/vestido-preto-bordado-paetes-bella\/","category":"Roupas, Vestidos","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75446_817386","price":12000,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817386","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":12000},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:46 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => EA0v7iPvN2G
+    [x-fb-request-id] => AkG4gqmh9l9bC4eaxXqIDcq
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => SOpucpUdsNAuKDFqPv8DwspFoA+adycRZR6a7cqbT5KRoBg8Xk8VejAjEoVYZO/7W5u3HHF0K2YOE4DIgcgBGQ==
+    [date] => Mon, 06 Apr 2020 19:59:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 16:59:50 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 16:59:50 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Cf6D9po+qJK
+    [x-fb-request-id] => AyCfaOvhD2YgA6mPgoMv5bf
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => URKmxtXkBmqqRoF3lXNPNjW/h5s6NfYVXe2iXdYGFo60KDAnnGImxJu6xg5ykgRE4U9hZsb1K52lgasEQRhyVQ==
+    [date] => Mon, 06 Apr 2020 19:59:50 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:01:05 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:05 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FQ8ug+FMb9m
+    [x-fb-request-id] => AeAl97e9KaBSsBoae4DJ59a
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => FmBJ12uGHNVGHetQ94ie56EgjvkPkds/l28rDui9WUDTvPk2Bm5+TjDyhs3RgA9CeWyxPUBjECZE3L0DW7Jmsg==
+    [date] => Mon, 06 Apr 2020 20:01:05 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:01:05 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75399_817516
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:05 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => D1hF73mbK9t
+    [x-fb-request-id] => A_dM3HmeBw6awO30Vw4hcGi
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => +fEwtVWaBJXQ8FmpXTUHLOjGK3GnjNpobAU/UjD2hwS18ZXeI5OXj7bCru//+LboEXestrHqN5jhq7wMKShfng==
+    [date] => Mon, 06 Apr 2020 20:01:05 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3172868892736270"}
+
+04-06-2020 @ 17:01:06 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3172868892736270/products
+body: Array
+(
+    [name] => Vestido Manga Curta (Estampada Lilas Floral) Colors - TAM G | Pianura
+    [description] => TAMANHO G 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75399.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/vestido-manga-curta-estampada-lilas-floral-colors-pianura/
+    [category] => Roupas, Vestidos
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75399_817516
+    [price] => 6990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817516
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 6990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:06 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => EYLAsIxc8RE
+    [x-fb-request-id] => Acb_GdVo9-Pqm3t8qMnysIe
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 9qiALnxdjv8XtdkHdUWNimE3zwtel7v0YhUWKoj2NSQM0bzLz/p7NrYpEr1EmGp0znrqbyX27odHCJKQDVGVSw==
+    [date] => Mon, 06 Apr 2020 20:01:06 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 241
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"Acb_GdVo9-Pqm3t8qMnysIe"}}
+
+04-06-2020 @ 17:01:06 - Invalid parameter
+04-06-2020 @ 17:01:06 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Acb_GdVo9-Pqm3t8qMnysIe\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:01:07 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Acb_GdVo9-Pqm3t8qMnysIe\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Vestido Manga Curta (Estampada Lilas Floral) Colors - TAM G | Pianura","description":"TAMANHO G \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75399.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/vestido-manga-curta-estampada-lilas-floral-colors-pianura\/","category":"Roupas, Vestidos","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75399_817516","price":6990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817516","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":6990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:07 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => B2G8PKEA/V/
+    [x-fb-request-id] => ABD0SsS4L1NOc0FaZ_IoAFT
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => IWdMPvP+pWHvbuoEL1Xo7VDBK/KlOObGkDDw1pz4B5Lzj3dQP+1RKAUubJitsHKGmk2Jg1JYXPRbAhymmpid7Q==
+    [date] => Mon, 06 Apr 2020 20:01:07 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:01:11 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:11 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => D84ESWQ68rm
+    [x-fb-request-id] => AaBK3WHVy5_hIQ4yGtxDtaZ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => nYH8TOEYQJHUEx6cpL8bA+SX48cdzUXPF2pc5owAxc7D4y4bCiCu9xFt2HbXe8Szv04aLkoNX7T8or9HdKWn2g==
+    [date] => Mon, 06 Apr 2020 20:01:11 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:01:33 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:33 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => H+xqxDqCoM7
+    [x-fb-request-id] => AVCfJsjbzGu9fjVYHWIsJAg
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => MdX9F2jWy2B51XeWQcOLCPAuVeIn/wdXoOVMuUKvigtRAiOM45C3pB8UMZYjKMakLWArzdEna2i7f7o4un80qw==
+    [date] => Mon, 06 Apr 2020 20:01:33 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:01:33 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75380_817478
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:33 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DIxGQAcmAIF
+    [x-fb-request-id] => AL0jSTCKvCSakgxyJZUjEcF
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => XlEzy4qVEqi5lr6JAUeFAwZRzbL2AYDGqn8x1nbpPwJ6GPTl2pAuwutVrNwB7FKJZ9y7130Lcsw9rVS056YJoQ==
+    [date] => Mon, 06 Apr 2020 20:01:33 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3036421426420251"}
+
+04-06-2020 @ 17:01:34 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3036421426420251/products
+body: Array
+(
+    [name] => Blusa (Dec Costas) Branca Com Fivelas - TAM M | ABrand
+    [description] => TAMANHO M 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75380.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-dec-costas-branca-com-fivelas-abrand/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75380_817478
+    [price] => 7990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817478
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 7990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:34 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => FaB1S6bgyXA
+    [x-fb-request-id] => AhqodUjc-WjbyhdqUbKBcRb
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 62Q0EfL9c/JZkytUjdH5oakTMIhL/fz6LYVnuyjBrVub5fMCQUtexXJQNV/OZt86jWibf0oQgED/g2msD5ocQA==
+    [date] => Mon, 06 Apr 2020 20:01:34 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 243
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AhqodUjc-WjbyhdqUbKBcRb"}}
+
+04-06-2020 @ 17:01:34 - Invalid parameter
+04-06-2020 @ 17:01:34 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AhqodUjc-WjbyhdqUbKBcRb\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:01:35 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AhqodUjc-WjbyhdqUbKBcRb\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Blusa (Dec Costas) Branca Com Fivelas - TAM M | ABrand","description":"TAMANHO M \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75380.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/blusa-dec-costas-branca-com-fivelas-abrand\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75380_817478","price":7990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817478","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":7990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:35 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => A89aRpFitH8
+    [x-fb-request-id] => Aukc1WuN7eWKEixMjBflcvm
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 5B9PIGE52D/X5utDfpPm8T7RrKLaa/BNKGc30cwk4P2Q33AweP4WoBbef4BnXtfAdoOUyxDz8AU941NK0YW5WQ==
+    [date] => Mon, 06 Apr 2020 20:01:35 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:01:39 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:01:39 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HMTs3q9gf4U
+    [x-fb-request-id] => A-_SLWOcxXUm_expQrTksk6
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => B6iKsLn6zqMnd0//Mv7P4fXokEHQN0BTTaYUoMGydkwE2Xt4vkOcEy9AgMmUYIx3LtR5Yi8h6eGO8WwhIpG6IQ==
+    [date] => Mon, 06 Apr 2020 20:01:39 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:02:33 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:02:33 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FXjXzcw5qrV
+    [x-fb-request-id] => AQOs5KOQWl_ErqlRIPJInws
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => uZZtiqm9xn8qx00GxC8/dbPz6rzr6O04t9jRHmgYAM4IoIwIorIWOm1xyiisPLTf32jJ5xgUiSsnAAov14Wpkg==
+    [date] => Mon, 06 Apr 2020 20:02:32 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:02:33 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75445_817384
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:02:33 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FAln3jd9kMW
+    [x-fb-request-id] => A-neqG8RENuhGrOWcZnXe5B
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => TgmsuZHaONX6m7rJXO66xQlMMHCPlx+gR7MRSxGHdroDS6JDuJLH2wzjDAaSaeTBWy1B8waQfsHyFtECupzjZQ==
+    [date] => Mon, 06 Apr 2020 20:02:33 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2837772959636580"}
+
+04-06-2020 @ 17:02:34 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2837772959636580/products
+body: Array
+(
+    [name] => Vestido Verde/Bronze (Bordado Paetes) - TAM G | Bella
+    [description] => TAMANHO G 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75445.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/vestido-verde-bronze-bordado-paetes-bella/
+    [category] => Roupas, Vestidos
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75445_817384
+    [price] => 12000
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817384
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 12000
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:02:34 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => HNnKHLEnUw0
+    [x-fb-request-id] => ARfLD-zInT6ZC5ndItSREWZ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => hpXP49tyXJLVTO2u2wiOzCwNPyIlnH4wZUhAPMNr6HFvbz9E/d8Dz/ftEHEH5dwJDZz/xWYoxj1tIkE0kDHZdQ==
+    [date] => Mon, 06 Apr 2020 20:02:34 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 245
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"ARfLD-zInT6ZC5ndItSREWZ"}}
+
+04-06-2020 @ 17:02:34 - Invalid parameter
+04-06-2020 @ 17:02:34 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ARfLD-zInT6ZC5ndItSREWZ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:02:35 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ARfLD-zInT6ZC5ndItSREWZ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Vestido Verde\/Bronze (Bordado Paetes) - TAM G | Bella","description":"TAMANHO G \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75445.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/vestido-verde-bronze-bordado-paetes-bella\/","category":"Roupas, Vestidos","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75445_817384","price":12000,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817384","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":12000},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:02:35 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Gxe0qaaPflY
+    [x-fb-request-id] => AczNsvAvDhpfxUBSrl5rLsR
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 4+oFx+w9bHma6xOQwwYYzwnX+2wLIk6QdLlnUylqZ21umxBYdVP8EIWXPRsttwmoxjFYZ7hKWzFqR3fbLHDXRQ==
+    [date] => Mon, 06 Apr 2020 20:02:35 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:02:40 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:02:40 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Ei5zRjruCiY
+    [x-fb-request-id] => ALRkXJyOrkjnHGoOdIW_6Pj
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => KX09MZqximFDQ9YcUhAd1o7eL+FpFN8S6UCKRbThtJSNOXxlhIoWx1a3vNtYoUCyFPQo8sDgpZWN57iubyzrsQ==
+    [date] => Mon, 06 Apr 2020 20:02:40 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:03:06 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:03:06 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => H2Q6UPUNWLC
+    [x-fb-request-id] => ADOrZqoQYnotFIY1XxWpxzt
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 6v/PGvTvDNmwRO4v2EoN56NLQiiBkSeZ878hEwnNdzqKx5GG+IBXIwUfWTiittpNyxkk+5o9pmVeOZ5+JyHO5w==
+    [date] => Mon, 06 Apr 2020 20:03:06 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:03:07 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75423_817406
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:03:07 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GRM27CrsM7z
+    [x-fb-request-id] => AJ0CH4XOAVjGJ2-hWj9MfJa
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => BmQ0AEt8qlwCaabLMp3eM6h8x/VjEuSaAw1iJ/z8+o2aRps3Yc8yFg1EmUXt9lL9cIxzUa1yF2Uc0dHY/g4Spw==
+    [date] => Mon, 06 Apr 2020 20:03:07 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2763188320443748"}
+
+04-06-2020 @ 17:03:08 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2763188320443748/products
+body: Array
+(
+    [name] => Blusa Estampada Marinho / Tela Preta - TAM M | Calvin Klein
+    [description] => TAMANHO M 
+ 
+PRODUTO ORIGINAL NOVO COM TAG.
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75423.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-estampada-marinho-tela-preta-calvin-klein/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75423_817406
+    [price] => 7990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817406
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 7990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:03:08 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => CqSkqRzQHck
+    [x-fb-request-id] => ATc-3B5EFPhOYVappa13Wg1
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => r6m+GpOrZD8+tbFX3H0gM/Zc3C/QO/h/6whRWwV8uwK0Gq63zcuC0b41FvkvxlcuOR5mKCuM11/SKkahN52Lig==
+    [date] => Mon, 06 Apr 2020 20:03:08 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 244
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"ATc-3B5EFPhOYVappa13Wg1"}}
+
+04-06-2020 @ 17:03:08 - Invalid parameter
+04-06-2020 @ 17:03:08 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ATc-3B5EFPhOYVappa13Wg1\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:03:09 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ATc-3B5EFPhOYVappa13Wg1\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Blusa Estampada Marinho \/ Tela Preta - TAM M | Calvin Klein","description":"TAMANHO M \n \nPRODUTO ORIGINAL NOVO COM TAG.","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75423.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/blusa-estampada-marinho-tela-preta-calvin-klein\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75423_817406","price":7990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817406","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":7990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:03:09 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GsuCFBeKIZ3
+    [x-fb-request-id] => ALKkaPLsETwOfQbx63n1xWL
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => PJhJunN4Ytz2/+HlKb/nyTuG+bRmdj3r1QvEEkohPnGETAJ0wlnDYup/QcKlIfiIyvQq026FvBOb6ARFRUMSTg==
+    [date] => Mon, 06 Apr 2020 20:03:09 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:03:14 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:03:14 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GmGD5bMXPbD
+    [x-fb-request-id] => AkR9JVTHG737ezYLjHSHbVS
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 1hP/+K8pJC3sy5n2Kn3GFPwfF5qjrLfzre4AnAU2aL7FHiVLrNJn7k0ElWRUBV7UAjEHYej//YMsweatBXnSUA==
+    [date] => Mon, 06 Apr 2020 20:03:14 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:05:15 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:15 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => E2vAF0NnvsL
+    [x-fb-request-id] => AnND2TBUzYc_aPPja1H-put
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ks1jFb5Xw+8J4yE6rSBjBMxY8aBuXqjcsFUI6OMAGQVifnKI69i47pdoaB/Z5PIuiFZLuLTqrF9O51hWBxLa5A==
+    [date] => Mon, 06 Apr 2020 20:05:15 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:05:16 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75388_817494
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:16 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => B269d7zWlNT
+    [x-fb-request-id] => AbmM4FJDTGjzjItsB1QsB2r
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => V6NCP/VPM5C7HDJkRt5nOxqrz1chCKD9a+2fBl/3Lb3nzZh6Iy+wr6N/A7yKj52qFw87AfMAdu0NXmTq2BUbRA==
+    [date] => Mon, 06 Apr 2020 20:05:16 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3733907829985175"}
+
+04-06-2020 @ 17:05:17 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3733907829985175/products
+body: Array
+(
+    [name] => Blusa Estampada Floral (Branca/Cinza) - TAM 40 | Sacada
+    [description] => TAMANHO 40 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75388.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-estampada-floral-branca-cinza-sacada/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75388_817494
+    [price] => 4990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817494
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 4990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:17 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => E4QudXUjnkg
+    [x-fb-request-id] => AnYJbROs6y88nP1_QIcnsGf
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => lInypGU/g7LQzcI8geIVUvpG3qmb8K0wGxqVZfunYgVlrMgViRphRWAnW1njFwUOfBjMRX+udWgFBJIH43yVNA==
+    [date] => Mon, 06 Apr 2020 20:05:17 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 243
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AnYJbROs6y88nP1_QIcnsGf"}}
+
+04-06-2020 @ 17:05:17 - Invalid parameter
+04-06-2020 @ 17:05:17 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AnYJbROs6y88nP1_QIcnsGf\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:05:17 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AnYJbROs6y88nP1_QIcnsGf\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Blusa Estampada Floral (Branca\/Cinza) - TAM 40 | Sacada","description":"TAMANHO 40 \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75388.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/blusa-estampada-floral-branca-cinza-sacada\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75388_817494","price":4990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817494","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":4990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:17 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => CRVl3gNhZsC
+    [x-fb-request-id] => ABhUgVbCchFfYibH9dc_sQo
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => KWOYNGKS6pPESYeg+yNhfUe7bwWutPsYaIMBFOWYjDT6dcpAbPMa1R0uzCmlLpCo1byQIeT+vbLbUbWc4Tgyfg==
+    [date] => Mon, 06 Apr 2020 20:05:17 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:05:22 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:22 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GD5T0bxUWqI
+    [x-fb-request-id] => A5InscmEfSBCRTCgikGvrhS
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => OCKjIF8JGYQYES3g2YshCnBQKv6fZgA7tdFMHiBOeGTT5+tEPba9I6leu8tBgteNmswOj0P53VMZmVY55pha0A==
+    [date] => Mon, 06 Apr 2020 20:05:22 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:05:54 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:54 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Ej6fxXlJSzB
+    [x-fb-request-id] => A33LtTacwGviVaojsalIKJ_
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 5VhosWzijr0IFEUg3uTbqpYvBg20Em4xtjGKntaGhF07d6aXI+0An+HWd0Z4vx+RjgG6JR+yibLlzjnWZz1mgA==
+    [date] => Mon, 06 Apr 2020 20:05:54 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:05:55 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75386_817490
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:55 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DE1Wbf+B71F
+    [x-fb-request-id] => A2C-NFNi8aM512l3dEMdqqQ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => SBT/nvMxfBu44NhOH+5rPsgrYQxp4hZiMg6kkdbe4v0MvWA582vQwz38RnPbGAYafv+aBTrbEcuowErhs/xs0g==
+    [date] => Mon, 06 Apr 2020 20:05:55 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2808591252563250"}
+
+04-06-2020 @ 17:05:56 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2808591252563250/products
+body: Array
+(
+    [name] => Blusa Rosa Fuccia Suede - TAM M | Agilità
+    [description] => TAMANHO M 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75386.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-rosa-fuccia-suede-agilita/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75386_817490
+    [price] => 8990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817490
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 8990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:56 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => FXcHQIe/Io4
+    [x-fb-request-id] => AYmVtf7O-2Ohhvielh1LEgZ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => aUGY0Pv9n121SFBgAbgcAUWXCaAs4kA5WjbtQP7sYPjVAPdEuhoRplltncCRQLBV2jg81B0XRAxsYyMv6VF0qQ==
+    [date] => Mon, 06 Apr 2020 20:05:56 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 244
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AYmVtf7O-2Ohhvielh1LEgZ"}}
+
+04-06-2020 @ 17:05:56 - Invalid parameter
+04-06-2020 @ 17:05:56 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AYmVtf7O-2Ohhvielh1LEgZ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:05:57 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AYmVtf7O-2Ohhvielh1LEgZ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Blusa Rosa Fuccia Suede - TAM M | Agilit\u00e0","description":"TAMANHO M \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75386.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/blusa-rosa-fuccia-suede-agilita\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75386_817490","price":8990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817490","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":8990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:05:57 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HEMLx8mTpVU
+    [x-fb-request-id] => AOdCUfv6wi7UY_9WvrSQ5xS
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => uEXX4Qh5jv0YMuGnGlTm7zfThNnT6v12kgPWz+5QXJKcMC26RVwxgxRYF83GrfCJAmUu7T/lK1UXJjICEICDtA==
+    [date] => Mon, 06 Apr 2020 20:05:56 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:06:02 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:06:02 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FOCnClHF079
+    [x-fb-request-id] => AZbBUOJTvMvKbcc5arKtuYG
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => mRpzMGPU7/I2mkRfvNQb3XVv6QgZ1OwEnDMbmSMTWSRqrRGY6i/gFHjJssM7BZEod3hLmuIKL9qtsQUQnCoYyQ==
+    [date] => Mon, 06 Apr 2020 20:06:02 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:06:48 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:06:48 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FpQTineVXB5
+    [x-fb-request-id] => ADADtXR8omqb3Tr7HCmHwin
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => LNMLKZ5HJDGTZzudFZZUH3SExrrvful3UPlVaOq1Q626JdqH5Ua1ldhJ9KulzbSM4r5DWvohpJMpK4/dgwEepw==
+    [date] => Mon, 06 Apr 2020 20:06:48 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:06:49 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75381_817480
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:06:49 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => En2qfKmlnCj
+    [x-fb-request-id] => A9HY7Dfcppp_qMMxIKOvrmL
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => D77SnhEtanGp2dV9DuvY4lWpS4Kaa0QWhaoKy4E4XxIMXdUoJR43OcpM9uK+LbfJkPUyEaTTCOEsaqWegCrjQA==
+    [date] => Mon, 06 Apr 2020 20:06:48 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3526100557406956"}
+
+04-06-2020 @ 17:06:49 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3526100557406956/products
+body: Array
+(
+    [name] => Bermuda Branca Alfaiataria - TAM 38 | ABrand
+    [description] => TAMANHO 38 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75381.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/bermuda-branca-alfaiataria-abrand/
+    [category] => Roupas, Bermuda
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75381_817480
+    [price] => 8990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817480
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 8990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:06:49 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => EllZVBJpTp6
+    [x-fb-request-id] => ActeY4Gr3bkK4A_SxVK5xgY
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => zT6MGqpOhFmcrkarwmpZLhLrNM67WgptvyQisJbhoNtIoEbj0Qg8pJ8UBO81MLpZtqve2k4kqzFrhQD/y0+M6g==
+    [date] => Mon, 06 Apr 2020 20:06:49 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 243
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"ActeY4Gr3bkK4A_SxVK5xgY"}}
+
+04-06-2020 @ 17:06:49 - Invalid parameter
+04-06-2020 @ 17:06:49 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ActeY4Gr3bkK4A_SxVK5xgY\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:06:50 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"ActeY4Gr3bkK4A_SxVK5xgY\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Bermuda Branca Alfaiataria - TAM 38 | ABrand","description":"TAMANHO 38 \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75381.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/bermuda-branca-alfaiataria-abrand\/","category":"Roupas, Bermuda","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75381_817480","price":8990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817480","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":8990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:06:50 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => E1CGAOxQP/Q
+    [x-fb-request-id] => A9PcAiCsFgR788a6mDXZzUY
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 0vwSH6djS7LGDLq+XnZ6HF+RlftZ/iAsKtv9htv4bjN0KCoAPgoxWmhFPJJztWVsQiyoZTPSEeZJDw0EyqVadQ==
+    [date] => Mon, 06 Apr 2020 20:06:50 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:06:55 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:06:55 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Bc77p6Au973
+    [x-fb-request-id] => A8csCN2Mwzc0_wsQi8K0u1n
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => lu4KY1Ciszi0H4PWT5Wrbtv6usMX9mNyvENsdtX32k5MeXXJxbNIeHP2/5BUS0GUWr4bKxH8tsp7xf19WpP8hw==
+    [date] => Mon, 06 Apr 2020 20:06:55 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:07:32 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:07:32 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => BmS6ZWtKUMh
+    [x-fb-request-id] => ADzaNtkAAjX8vRV_l3iNb4e
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => tyLrDFln0wKrSZrz9oq0sE0taGkzRJFhsuBJbUWtyks3wn8xyfrRX6teazdis9vLyg2kvxNRYZsBFbWsE56raw==
+    [date] => Mon, 06 Apr 2020 20:07:32 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:07:33 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75408_817464
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:07:33 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Ef6t8iDlHtk
+    [x-fb-request-id] => AJ5dJ7yxM1KETK3wl1eS6si
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => om7dfpnQE0XGOW06V4GPiO1kruUBhS1oN5zecx84esi86RB8OxO48kXcCyIuXP8a3xqnS6T8IR7o4pPgq3M8lw==
+    [date] => Mon, 06 Apr 2020 20:07:33 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2959516757462417"}
+
+04-06-2020 @ 17:07:34 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2959516757462417/products
+body: Array
+(
+    [name] => Short Cintura Alta Jeans Claro - TAM 38 | Lady Rock
+    [description] => TAMANHO 38 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75408.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/short-cintura-alta-jeans-claro-lady-rock/
+    [category] => Roupas, Short
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75408_817464
+    [price] => 3990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817464
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 3990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:07:34 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => GGPty5f/PcA
+    [x-fb-request-id] => AUPDw5DOxGz3o2ljbbkVlvJ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => S+gvRRQwNyzQa1SOlOGQaVEpmGr2WTR0kKoGV+WqZ0flBy7eWCr+4TeRiy9Q/sdIg7ibehNlwYCUxVLWONsuOg==
+    [date] => Mon, 06 Apr 2020 20:07:34 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 245
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AUPDw5DOxGz3o2ljbbkVlvJ"}}
+
+04-06-2020 @ 17:07:34 - Invalid parameter
+04-06-2020 @ 17:07:34 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AUPDw5DOxGz3o2ljbbkVlvJ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:07:34 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AUPDw5DOxGz3o2ljbbkVlvJ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Short Cintura Alta Jeans Claro - TAM 38 | Lady Rock","description":"TAMANHO 38 \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75408.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/short-cintura-alta-jeans-claro-lady-rock\/","category":"Roupas, Short","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75408_817464","price":3990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817464","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":3990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:07:34 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HG2An+gikJi
+    [x-fb-request-id] => AfPZ1H8Iblr3ZXRqhNoam4m
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => DjTOJREYdi4VWlfzgTeZmIx0kGEXaknaJSqKeIphg5MlLVya7ae5aTH/ffxJPHTPWVwejOiaXu3MEJ2gNTPm2g==
+    [date] => Mon, 06 Apr 2020 20:07:34 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:07:39 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:07:39 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FfjYYjmG7XF
+    [x-fb-request-id] => AwsVlv0IYeQ5B6gyQN-6nZU
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => T1nik63JEaDL2GuNF+ZyidqCznyNUf5Q8b1B3bEQpkTSNRDxtARjPKMsPwSRhccZWJR02jfRmk5YN6ObRwlf+g==
+    [date] => Mon, 06 Apr 2020 20:07:39 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:07:39 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:07:39 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001949437
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => CZ/QVSpH8M8
+    [x-fb-request-id] => ATxjvEfeZT7AQztqfiXJWAa
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 4nF5UCFkJt66Jil/vQEMmCunQArFE8eD1Swqgf6fjHVIInVR4WlWjysS1Pjr+uryyEF9+n1diGfJhd454q+zzg==
+    [date] => Mon, 06 Apr 2020 20:07:39 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:42:46 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:42:46 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Hd3kpY/1CsH
+    [x-fb-request-id] => ANCEqN--LEQZCutk7zriSfc
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ze7qmUm/vmbp61jcOpSklCIyQQwcw++KbXh5bO/BwmxX2oS8CkG15tV7YjIoOwq13P1mwugy3+PEt8Wvz/G0ng==
+    [date] => Mon, 06 Apr 2020 20:42:46 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:42:47 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75550_817790
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:42:47 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => C7ggxhN8nmB
+    [x-fb-request-id] => AbaNnwFBk__GOImOvzUM4I8
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => jspg0htyGBECY9hoMImJ92FF0Qp8/i+1UoUBH890dD2lKhz6880leylgMQ+iamE0LD/1Vv25aeT9LqT7J1ZHfw==
+    [date] => Mon, 06 Apr 2020 20:42:47 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3703070916401980"}
+
+04-06-2020 @ 17:43:03 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3703070916401980/products
+body: Array
+(
+    [name] => Blusa Ampla Bege Com Paetes - TAM P | Ágatha
+    [description] => Blusa Ampla Bege Com Paetes - TAM P | Ágatha
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2019/09/remow_bfc-Produtos-semfoto-1.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-ampla-bege-com-paetes-agatha/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75550_817790
+    [price] => 4990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817790
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 4990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:43:03 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => H0cF1SoLsRl
+    [x-fb-request-id] => Ay4j6-xgWvC4c31GOkS4Cmq
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 852Jz1Sw5qu5+Gy3Eou97PVpuxn9ahujJl5820FRnpt4IfkVsp5VSG/His3a93RI79J85J19sWU/wBD5hA4d6A==
+    [date] => Mon, 06 Apr 2020 20:43:03 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3703070933068645"}
+
+04-06-2020 @ 17:43:42 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:43:42 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => F1L+dgmTHJ9
+    [x-fb-request-id] => AVmqNk2iYewaK0SSm62ag0i
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => BYaiSGze0UCJk0obSwI0qxZ+b5zaqt/ekxobxrlerIwD1GEjAG/GyemOCSaMQ5xMsZijvg6vINU38Wx8JNEzTw==
+    [date] => Mon, 06 Apr 2020 20:43:42 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:43:42 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75534_817758
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:43:42 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HC3k4znMEvw
+    [x-fb-request-id] => AGIOgNKkK41yLCZRI2-drU0
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => kt/cPDzV2ZsMYTQpX/4QxWLMVcHldqeuPtbOneeFcqy7SGIepCYh1hhg1aWx2KQ6w1ZROG10enLxNBpUMQ5ZNg==
+    [date] => Mon, 06 Apr 2020 20:43:42 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2927389374010424"}
+
+04-06-2020 @ 17:43:43 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2927389374010424/products
+body: Array
+(
+    [name] => Camiseta Estampada Colors Paetes - TAM M | Afghan
+    [description] => TAMANHO M 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75534.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/camiseta-estampada-colors-paetes-afghan/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75534_817758
+    [price] => 4990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817758
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 4990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:43:43 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => ACRLhUoL4nk
+    [x-fb-request-id] => AR9UYJAo7h_Sq1AiBZYvWSO
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => J2vwaWVUh0VN6RPFGV/cReXp9D4Ylqi0lOHATqYeRxr68dkcAoQIcjmsHNc9JtLpdLYBHKVSNFXDuKuZ1KVl+Q==
+    [date] => Mon, 06 Apr 2020 20:43:43 GMT
+    [x-fb-trip-id] => 1393150072
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 247
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AR9UYJAo7h_Sq1AiBZYvWSO"}}
+
+04-06-2020 @ 17:43:43 - Invalid parameter
+04-06-2020 @ 17:43:43 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AR9UYJAo7h_Sq1AiBZYvWSO\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:43:44 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AR9UYJAo7h_Sq1AiBZYvWSO\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Camiseta Estampada Colors Paetes - TAM M | Afghan","description":"TAMANHO M \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75534.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/camiseta-estampada-colors-paetes-afghan\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75534_817758","price":4990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817758","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":4990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:43:44 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Aw8FhnD2hQ5
+    [x-fb-request-id] => ART0xIGeOyuKLpEiF58BDwQ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => kyjUQ2dzrudkwDfcX6Rz5ORNDJbV4rGFPeCGysN4CkzVdiJ6NN4fKiG+2ny6GtDeueDFWhi1e+7yrfJo8L/YmQ==
+    [date] => Mon, 06 Apr 2020 20:43:44 GMT
+    [x-fb-trip-id] => 1979462383
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:43:49 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:43:49 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HGiGTK1lXvm
+    [x-fb-request-id] => AV3tEoXAsOXAQ4VKHDG0_VE
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => Zp1UYLj1B0zpcvsy299yI2FSm1SzwsuDuFt2ypTIX7+0YY4jgRv25Zv05a04x9CrUd8O4As1UJlSk65KCiD7sA==
+    [date] => Mon, 06 Apr 2020 20:43:49 GMT
+    [x-fb-trip-id] => 59920838
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:44:01 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3703070933068645
+body: Array
+(
+    [visibility] => published
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:01 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FodwvLYIl8N
+    [x-fb-request-id] => AsPGsw2QGHMw_HPk06xi3lA
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 9LB0kh2dCUWca/EKfPwElAxheH1OKtTgn+Adh2joDgbk/0KGZ4I82Ux8d0sr/j4mIc7JTuFK8BIDU+k8Vpx0XQ==
+    [date] => Mon, 06 Apr 2020 20:44:00 GMT
+    [x-fb-trip-id] => 115442006
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:44:02 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3703070933068645
+body: Array
+(
+    [name] => Blusa Ampla Bege Com Paetes - TAM P | Ágatha
+    [description] => TAMANHO P 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75550.jpg
+    [additional_image_urls] => 
+    [url] => http://brechofashioncarioca.com.br/product/blusa-ampla-bege-com-paetes-agatha/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75550_817790
+    [price] => 4990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817790
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 4990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:02 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => EyAOSz6Yw5k
+    [x-fb-request-id] => Anh_chUlczb8fuzEgrLKyz9
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => jI02/cUevGzV4/Fdw3T+j/WMJ2lJyu4bViZN1JEebxKBVF45F2HPZFVTdl64QUa+M4pPG1N5AuuAhCSG2ucuRg==
+    [date] => Mon, 06 Apr 2020 20:44:02 GMT
+    [x-fb-trip-id] => 1296198805
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 241
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"Anh_chUlczb8fuzEgrLKyz9"}}
+
+04-06-2020 @ 17:44:02 - Invalid parameter
+04-06-2020 @ 17:44:02 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Anh_chUlczb8fuzEgrLKyz9\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:44:02 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Anh_chUlczb8fuzEgrLKyz9\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":null,"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:02 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => E6LlyXwD6bn
+    [x-fb-request-id] => ABpRL5wVRo0UfeGkfQbEruy
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => Ma4VYk4QE46nW4S1d7mxAuOGMj1r9eHDda4sCV+QDaimqcT9yfHVzVziYEW60JstDP2Mz1faISg/nMMs1Dw+tg==
+    [date] => Mon, 06 Apr 2020 20:44:02 GMT
+    [x-fb-trip-id] => 227077818
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:44:06 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:06 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GY2avwDbzQP
+    [x-fb-request-id] => AEZMjYGoUSh-h2t-6Wqh_Sc
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => lsrLGnERUTkmg/pfbdmsVaP9lDgs5C9t8pNvixvm6ohxQ6Xh1mWE2KQu+O6uW9n309N8B11+jCf486QY7QPR9g==
+    [date] => Mon, 06 Apr 2020 20:44:06 GMT
+    [x-fb-trip-id] => 1393150072
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:44:38 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:38 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DRQPOmbZ4QS
+    [x-fb-request-id] => AT5Vm0aj7v2FWb1C56nHGfh
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => WA9BPzu522TpCG4cMC30+t/MRXUc9JeyPm2ub7xp0FTsiLIGH4JHOivByliOIVQvxlIOMsuzu0HPekD5lTn0vQ==
+    [date] => Mon, 06 Apr 2020 20:44:37 GMT
+    [x-fb-trip-id] => 512678718
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:44:38 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75588_817704
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:38 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Ap9JsLMSLaw
+    [x-fb-request-id] => AG3zqX_N_nMlIC7H7nlSitU
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => Z/DY20Ger/Apr9BCWkSeqMfaGp9bRbEVUdsfNISvjYGD1YHq7QWZTRT2LSPd7GQWU6v1L2U+hF0PzDZ4VSxj4A==
+    [date] => Mon, 06 Apr 2020 20:44:38 GMT
+    [x-fb-trip-id] => 59920838
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2704848506279150"}
+
+04-06-2020 @ 17:44:39 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2704848506279150/products
+body: Array
+(
+    [name] => Bata 1/2 Manga Branca Listrada - TAM 38 | Ateen
+    [description] => TAMANHO 38 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75588.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/bata-1-2-manga-branca-listrada-ateen/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75588_817704
+    [price] => 8990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817704
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 8990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:39 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => CgUOKgJSpnr
+    [x-fb-request-id] => AnXXrzDZZFb8sKVnQQxRoQC
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => HalI0EFUVO2jhU+IOBvtfgF8zI0aeuh4ED9E9x3aePS0oPdAkkd+o25OttbGIBU2yv2kR/F6LgZazPMKqTSlFQ==
+    [date] => Mon, 06 Apr 2020 20:44:39 GMT
+    [x-fb-trip-id] => 1393150072
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 244
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AnXXrzDZZFb8sKVnQQxRoQC"}}
+
+04-06-2020 @ 17:44:39 - Invalid parameter
+04-06-2020 @ 17:44:39 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AnXXrzDZZFb8sKVnQQxRoQC\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:44:40 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AnXXrzDZZFb8sKVnQQxRoQC\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Bata 1\/2 Manga Branca Listrada - TAM 38 | Ateen","description":"TAMANHO 38 \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75588.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/bata-1-2-manga-branca-listrada-ateen\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75588_817704","price":8990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817704","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":8990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:40 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GdBs44EnTxx
+    [x-fb-request-id] => AueXrfgVpyqzbxaCO3QwKr2
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 75tpleJ2md/qU3LyPLtBmuIexwHmZtX9fLsC0Gb+iBbyuVqObglFVPW0sRewHxQq/hQH6vT33WdxnfvG/NjHEg==
+    [date] => Mon, 06 Apr 2020 20:44:40 GMT
+    [x-fb-trip-id] => 1979462383
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:44:50 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:44:50 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => ETQ53jYIa7Y
+    [x-fb-request-id] => Ae_eP6iiWIW4pEBhhIXgJbp
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => q+UTyKDXLEOFpxlMH8WTzGYAldgZC20nfPb/qXDLm2wS8Z6LvBvsEyEPeFL+tAzotV6WB/PQUnE07mok9H7EOg==
+    [date] => Mon, 06 Apr 2020 20:44:50 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:45:25 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:25 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => DGisOev5hiP
+    [x-fb-request-id] => AIJ8HCJcjEF9mW5o00njsaE
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => I7nNsoWsL035FizqYhiDU9Gd9TlrGEHrIeruut3ncEQDWeuvEehz3n1JXMSvafFPS42keuiqS2+uuz8V3aF8TA==
+    [date] => Mon, 06 Apr 2020 20:45:24 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:45:26 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75569_817726
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:26 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => CCAvXRs2ShJ
+    [x-fb-request-id] => A8qvwzzCLeJobJWJMIEW8S1
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => oeBfMS9h1ec2HxxTH4Rp+Kde9kcHMoRXjU2+BTnJU9SOcBkuUfvzNL8JERyYNnOZA4jk7CgEX/J/R4cHFvHgBQ==
+    [date] => Mon, 06 Apr 2020 20:45:26 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2951184911571547"}
+
+04-06-2020 @ 17:45:27 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2951184911571547/products
+body: Array
+(
+    [name] => Blusa Off White (Rosas/Paetes) - TAM P | Maria Bembem
+    [description] => TAMANHO P 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75569.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-off-white-rosas-paetes-maria-bembem/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75569_817726
+    [price] => 2990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817726
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 2990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:27 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => HPEpTZn+OY3
+    [x-fb-request-id] => AamXVHqg_yEGfbnu9ItFj0N
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => xbOLkke56ghSwtqfNRAke5L9lCnGCJoBNU5UgJNO4/zkZZPvS+U4bQWK12TYKhZXWr+JaDkln2NuNouwwvO0OQ==
+    [date] => Mon, 06 Apr 2020 20:45:27 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 242
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AamXVHqg_yEGfbnu9ItFj0N"}}
+
+04-06-2020 @ 17:45:27 - Invalid parameter
+04-06-2020 @ 17:45:27 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AamXVHqg_yEGfbnu9ItFj0N\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:45:28 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AamXVHqg_yEGfbnu9ItFj0N\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Blusa Off White (Rosas\/Paetes) - TAM P | Maria Bembem","description":"TAMANHO P \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75569.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/blusa-off-white-rosas-paetes-maria-bembem\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75569_817726","price":2990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817726","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":2990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:28 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => BzfofMDpJu4
+    [x-fb-request-id] => Av4tkqtG-3ix2mNWc5HpWPM
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => fFJMysZs2hnLqfnqod5IdwtRhaH4BuIbqJ6bpGaX9YFcBw7RWtartXchvLLDhOUHRRArPHJtDqzjU5ID4lnw/w==
+    [date] => Mon, 06 Apr 2020 20:45:28 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:45:32 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:32 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Ax6+/tHuGMe
+    [x-fb-request-id] => AQZAX8tKzTLbRHt2SZdxvwd
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => TFR+dTKMgi6UbzKuxhrWJ1FLGCjrz2bNwwZpIXHb9mcQ7pjzm/1yL1L+PPYMfiRflHfbZJZTQdpLiSzRY6dntQ==
+    [date] => Mon, 06 Apr 2020 20:45:32 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:45:59 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:59 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GjYgdv139Yw
+    [x-fb-request-id] => AvTFwci0aXKJJTO67vXfWku
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ESzIBfrzN8aUXDWL3t2Tgr1lZdzKwjfbEn1ebAWxU++bX+ZVUWeZqe5durqqF20uUoidqasiOGh2EUA/wZCe1Q==
+    [date] => Mon, 06 Apr 2020 20:45:59 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:45:59 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75562_817712
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:45:59 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => CJ/JhWoZZcs
+    [x-fb-request-id] => A7rX8Eif17btTCT63XT5GpE
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => b1tuVu5I8+gx7oT2QS/U/HUs7eit5MG6+tf4YErDE98pOa0iojLvpuwif7BZnAKGZy6RkBwNXEmyEtcJI4SXwg==
+    [date] => Mon, 06 Apr 2020 20:45:59 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"3594178787323470"}
+
+04-06-2020 @ 17:46:00 - Request
+Request
+uri: https://graph.facebook.com/v2.9/3594178787323470/products
+body: Array
+(
+    [name] => Blusa Com Capuz Preta Moleton - TAM PP | Blue Steel
+    [description] => TAMANHO PP 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75562.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/blusa-com-capuz-preta-moleton-blue-steel/
+    [category] => Blusas / Camisas, Roupas, Casacos, Cropped
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75562_817712
+    [price] => 2490
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817712
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 2490
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:00 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => G8nbjWLEAfm
+    [x-fb-request-id] => AsvQKcNRsIqfwynpx08vWLg
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => mwZLdtVPy96Fs4X/Hvrf6mpwTe6AR+BOx5J5Mqfb1GMwTkIQ1NMrbN5rMqlOF7/Hs2LV/X4YNIoRu/j5Eubkjw==
+    [date] => Mon, 06 Apr 2020 20:46:00 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 243
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"AsvQKcNRsIqfwynpx08vWLg"}}
+
+04-06-2020 @ 17:46:00 - Invalid parameter
+04-06-2020 @ 17:46:00 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AsvQKcNRsIqfwynpx08vWLg\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:46:00 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"AsvQKcNRsIqfwynpx08vWLg\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Blusa Com Capuz Preta Moleton - TAM PP | Blue Steel","description":"TAMANHO PP \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75562.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/blusa-com-capuz-preta-moleton-blue-steel\/","category":"Blusas \/ Camisas, Roupas, Casacos, Cropped","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75562_817712","price":2490,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817712","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":2490},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:00 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => Cxmyzg3Y9Fn
+    [x-fb-request-id] => ATj4yZSBT33tK1VwPdnKXOj
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => naG80RSyk04XBRiz5Wbq9PHmsfq0ZsTbQqB6cYOPa8HKrgaFDV12/yY0dLzsRZgOWB7RUGjw+LQTujCiikSwZg==
+    [date] => Mon, 06 Apr 2020 20:46:00 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:46:05 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:05 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => HjRWMn5dSQj
+    [x-fb-request-id] => AyQroUTijCOmwhoy2v4yoJw
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 7M6kB8ZInpO+bu9ROyRuFpMM+pAuzyLRidwTa8EoGSuzTYOAfpqp1UnZds26Dg2pEqx1NHgiI6e5K2IjkO4FTg==
+    [date] => Mon, 06 Apr 2020 20:46:05 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:46:39 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:39 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => EYxmqJo2CV0
+    [x-fb-request-id] => AsNzzxg3Lp4CfI2ix4PmM_I
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => 90m5/tOAPsf9HCtLJGMwde4YRCcap4j2tHeJkNfCVVba9FKlval52i1U5HrSRxMcSudMCofk6/uPQDmPc7lIxg==
+    [date] => Mon, 06 Apr 2020 20:46:39 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:46:40 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 75586_817700
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:40 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => BFPtfARNgC0
+    [x-fb-request-id] => A6JZKBITe2ESIHmWJ0OWQu3
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => UlVA1uQLtnmKiks+dShjw6uy+G9O1N+xm9emuNDJenhm0mKmW74eMAJdBv0QaCYDppODOh4tb2bCLyIBKXPl9Q==
+    [date] => Mon, 06 Apr 2020 20:46:39 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 25
+)
+body: {"id":"2902494953176688"}
+
+04-06-2020 @ 17:46:40 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2902494953176688/products
+body: Array
+(
+    [name] => Camisa Jeans Curta - TAM P | Forever 21
+    [description] => TAMANHO P 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/04/75586.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/camisa-jeans-curta-forever-21/
+    [category] => Blusas / Camisas, Roupas
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 75586_817700
+    [price] => 3990
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=817700
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 3990
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:40 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => D2HpVE/qog7
+    [x-fb-request-id] => A48sc16Ry61Gw28KBffAzwC
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => U2D4w+V5Li1UvfxEVGOEOlYVghjQKMOIrbFUS0uIUFbf0lIppzhG4iUyqwgw6ReuTmex1VF0WJ09II9eZqL1Cw==
+    [date] => Mon, 06 Apr 2020 20:46:40 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 243
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"A48sc16Ry61Gw28KBffAzwC"}}
+
+04-06-2020 @ 17:46:40 - Invalid parameter
+04-06-2020 @ 17:46:40 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"A48sc16Ry61Gw28KBffAzwC\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-06-2020 @ 17:46:40 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"A48sc16Ry61Gw28KBffAzwC\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Camisa Jeans Curta - TAM P | Forever 21","description":"TAMANHO P \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/04\/75586.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/camisa-jeans-curta-forever-21\/","category":"Blusas \/ Camisas, Roupas","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"75586_817700","price":3990,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=817700","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":3990},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:40 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GPDEZoP/arR
+    [x-fb-request-id] => ATvvNsTyvARgepIQQMSjhzZ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => TSZNJxiKHqTm+MQpU79oKmLEguvRBD28fSF4gnuua+BpTuPtTMg1ryHgsecEEIWapdPYVuoteDK+fvXta89CBw==
+    [date] => Mon, 06 Apr 2020 20:46:40 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-06-2020 @ 17:46:44 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-06-2020 @ 17:46:44 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001950294
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FGie8ENkaR9
+    [x-fb-request-id] => AJA5Yty0gpChvg0D4cusfxZ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => mQj5AKr4V8bgDyBHT2pj1LyCMsaIDhu9nmZZomHmdVG7uIGyfPzLeR7IX93T+UJ7CeClr1z0+/MGnJqbD98rrQ==
+    [date] => Mon, 06 Apr 2020 20:46:44 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+

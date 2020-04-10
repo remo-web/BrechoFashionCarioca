@@ -1,0 +1,18 @@
+2020-04-01T15:04:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 660b37a746dea090b3d4ae272ed0b8e9
+2020-04-01T15:27:34+00:00 NOTICE abandoned_cart.success :: email: vivisilvaaraujoo@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=660b37a746dea090b3d4ae272ed0b8e9
+2020-04-01T15:30:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 660b37a746dea090b3d4ae272ed0b8e9
+2020-04-01T15:34:59+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 819143
+2020-04-01T15:35:11+00:00 NOTICE debug :: Order ID 819143 was on-hold and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-04-01T15:35:11+00:00 NOTICE debug :: Order ID 819143 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-04-01T15:45:56+00:00 NOTICE abandoned_cart.success :: email: vivisilvaaraujoo@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=660b37a746dea090b3d4ae272ed0b8e9
+2020-04-01T15:45:59+00:00 NOTICE order_submit.success :: addStoreOrder :: #819143 :: email: vivisilvaaraujoo@gmail.com :: abandoned cart deleted [660b37a746dea090b3d4ae272ed0b8e9]
