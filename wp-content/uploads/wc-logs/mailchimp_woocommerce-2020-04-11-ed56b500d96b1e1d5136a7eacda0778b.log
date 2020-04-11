@@ -1,0 +1,60 @@
+2020-04-11T09:42:21+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id bc84926b4c558f30b65822fb6d3b9f8a
+2020-04-11T10:12:26+00:00 NOTICE abandoned_cart.success :: email: rosepump05@hotmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=bc84926b4c558f30b65822fb6d3b9f8a
+2020-04-11T10:45:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 41695e1bee78149cd580c9c6bafaf3a8
+2020-04-11T10:50:11+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 819279
+2020-04-11T10:50:18+00:00 NOTICE debug :: Order ID 819279 was on-hold and is now failed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-04-11T10:50:22+00:00 NOTICE debug :: Order ID 819279 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-04-11T10:54:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 48
+2020-04-11T11:04:51+00:00 NOTICE abandoned_cart.success :: email: taisprates2000@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=41695e1bee78149cd580c9c6bafaf3a8
+2020-04-11T11:04:52+00:00 NOTICE system.debug :: order 819279 is in failed status, and is being skipped for now.
+2020-04-11T11:04:53+00:00 NOTICE member.sync :: Updated Member taisprates2000@gmail.com :: Array
+(
+    [previous_status] => transactional
+    [status] => 1
+    [merge_fields] => Array
+        (
+        )
+
+)
+
+2020-04-11T14:53:23+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id bc84926b4c558f30b65822fb6d3b9f8a
+2020-04-11T15:09:42+00:00 NOTICE abandoned_cart.success :: email: rosepump05@hotmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=bc84926b4c558f30b65822fb6d3b9f8a
+2020-04-11T15:29:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 818914
+2020-04-11T15:33:11+00:00 NOTICE product_submit.success :: updateStoreProduct :: #818914
+2020-04-11T15:33:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 41695e1bee78149cd580c9c6bafaf3a8
+2020-04-11T15:38:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 48
+2020-04-11T15:38:54+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 819280
+2020-04-11T15:38:59+00:00 NOTICE debug :: Order ID 819280 was on-hold and is now processing :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-04-11T15:39:00+00:00 NOTICE debug :: Order ID 819280 was pending and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-04-11T15:44:13+00:00 NOTICE abandoned_cart.success :: email: taisprates2000@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=41695e1bee78149cd580c9c6bafaf3a8
+2020-04-11T15:44:15+00:00 NOTICE order_submit.success :: addStoreOrder :: #819280 :: email: taisprates2000@gmail.com :: landing site https://brechofashioncarioca.com.br/?custom-css=d58638fb42 :: abandoned cart deleted [41695e1bee78149cd580c9c6bafaf3a8]
+2020-04-11T15:44:15+00:00 NOTICE member.sync :: Updated Member taisprates2000@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Tais
+            [LNAME] => Archanjo
+        )
+
+)
+

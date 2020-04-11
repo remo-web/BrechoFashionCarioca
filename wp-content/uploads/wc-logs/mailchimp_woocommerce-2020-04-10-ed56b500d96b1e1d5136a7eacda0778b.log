@@ -1,0 +1,2 @@
+2020-04-10T20:27:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update starts in the next minute :: obj_id 41695e1bee78149cd580c9c6bafaf3a8
+2020-04-10T20:52:46+00:00 NOTICE abandoned_cart.success :: email: taisprates2000@gmail.com :: checkout_url: https://brechofashioncarioca.com.br/checkout/?mc_cart_id=41695e1bee78149cd580c9c6bafaf3a8

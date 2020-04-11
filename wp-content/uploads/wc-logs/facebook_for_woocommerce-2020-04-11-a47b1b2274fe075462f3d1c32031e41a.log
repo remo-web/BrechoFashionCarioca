@@ -1,0 +1,214 @@
+04-11-2020 @ 12:29:17 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":" doesn't exist but underwent a visibility transform.","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-11-2020 @ 12:29:17 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001978342
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => D6WBROoZm70
+    [x-fb-request-id] => A7MPKKjefsi1aBm099ukUwk
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => ew19a80ZZFXyMiPFdIse1AGu2CxZ4JJ59/TDQp9WoMFYCSxNlOhN91RSevYUv1PbTowRKo2MxoQhzygFy+Uk5A==
+    [date] => Sat, 11 Apr 2020 15:29:17 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-11-2020 @ 12:29:17 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303959530320711/product_groups
+body: Array
+(
+    [retailer_id] => 76078_818914
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-11-2020 @ 12:29:17 - Response
+Response
+code: 400
+message: Bad Request
+headers: Array
+(
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "(#10800) Duplicate retailer_id when attempting to create a product group."
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001978342
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => EVoFIDHooSF
+    [x-fb-request-id] => A-UQBBJ69nI2oGaTkP99Sy1
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => l4dBn5x+nyHzePrRFDfVpvEHet2u6dhC/VVxHCTrQh3sxUWFNrxJZS1JtzZFDGi4QVnykHou4wCvx5pYbZ7EYA==
+    [date] => Sat, 11 Apr 2020 15:29:17 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 224
+)
+body: {"error":{"message":"(#10800) Duplicate retailer_id when attempting to create a product group.","type":"OAuthException","code":10800,"error_data":{"product_group_id":2747633158677760},"fbtrace_id":"A-UQBBJ69nI2oGaTkP99Sy1"}}
+
+04-11-2020 @ 12:29:18 - Request
+Request
+uri: https://graph.facebook.com/v2.9/2747633158677760/products
+body: Array
+(
+    [name] => Tenis Spot Wear - Tam 37 | Nike
+    [description] => TAMANHO 37 
+ 
+PRODUTO ORIGINAL
+    [image_url] => http://brechofashioncarioca.com.br/wp-content/uploads/2020/03/76078.jpg
+    [additional_image_urls] => Array
+        (
+        )
+
+    [url] => http://brechofashioncarioca.com.br/product/tenis-spot-wear-tam-37-nike/
+    [category] => Calçados
+    [brand] => Brechó Fashion Carioca
+    [retailer_id] => 76078_818914
+    [price] => 15000
+    [currency] => BRL
+    [availability] => in stock
+    [visibility] => published
+    [checkout_url] => http://brechofashioncarioca.com.br/cart/?add-to-cart=818914
+    [sale_price_start_date] => 1970-01-29T00:00+00:00
+    [sale_price_end_date] => 1970-01-30T23:59+00:00
+    [sale_price] => 15000
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-11-2020 @ 12:29:18 - Response
+Response
+code: 500
+message: Internal Server Error
+headers: Array
+(
+    [vary] => Accept-Encoding
+    [content-encoding] => gzip
+    [www-authenticate] => OAuth "Facebook Platform" "invalid_request" "Invalid parameter"
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001978342
+    [access-control-allow-origin] => *
+    [cache-control] => no-store
+    [x-fb-trace-id] => D1MPQy4gFOD
+    [x-fb-request-id] => Af59BcyFrnu2BCUFI12vzZQ
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => zL2zbIVB1TT3APndLkbVsb39FMgUHuvLBf82FEk7qgCvDolqimGZywEcWAHNrTHWwHDSZvJ0JsQ7Xf2ZUn2jzw==
+    [date] => Sat, 11 Apr 2020 15:29:18 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 244
+)
+body: {"error":{"message":"Invalid parameter","type":"FacebookApiException","code":100,"error_subcode":1803063,"is_transient":false,"error_user_title":"Field contains all uppercase letters","error_user_msg":"Consider reformatting your description field so your ads don't use all uppercase letters.","fbtrace_id":"Af59BcyFrnu2BCUFI12vzZQ"}}
+
+04-11-2020 @ 12:29:18 - Invalid parameter
+04-11-2020 @ 12:29:18 - {"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Af59BcyFrnu2BCUFI12vzZQ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+04-11-2020 @ 12:29:18 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Non-200 error code from FB","object":{"result":{"headers":{},"body":"{\"error\":{\"message\":\"Invalid parameter\",\"type\":\"FacebookApiException\",\"code\":100,\"error_subcode\":1803063,\"is_transient\":false,\"error_user_title\":\"Field contains all uppercase letters\",\"error_user_msg\":\"Consider reformatting your description field so your ads don't use all uppercase letters.\",\"fbtrace_id\":\"Af59BcyFrnu2BCUFI12vzZQ\"}}","response":{"code":500,"message":"Internal Server Error"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}},"data":{"name":"Tenis Spot Wear - Tam 37 | Nike","description":"TAMANHO 37 \n \nPRODUTO ORIGINAL","image_url":"http:\/\/brechofashioncarioca.com.br\/wp-content\/uploads\/2020\/03\/76078.jpg","additional_image_urls":[],"url":"http:\/\/brechofashioncarioca.com.br\/product\/tenis-spot-wear-tam-37-nike\/","category":"Cal\u00e7ados","brand":"Brech\u00f3 Fashion Carioca","retailer_id":"76078_818914","price":15000,"currency":"BRL","availability":"in stock","visibility":"published","checkout_url":"http:\/\/brechofashioncarioca.com.br\/cart\/?add-to-cart=818914","sale_price_start_date":"1970-01-29T00:00+00:00","sale_price_end_date":"1970-01-30T23:59+00:00","sale_price":15000},"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-11-2020 @ 12:29:18 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001978342
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => FTfzzuMx45s
+    [x-fb-request-id] => A0LPyfdDMvG36faUJ6r-C23
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => UnxvfQBRbm+qGLEJJ3xK4IB/EFhfW23QQCXfKZDkdiXVw5tRZam3poEyj5LAbXrpfACiVQYp6AnalMlG3qfoPQ==
+    [date] => Sat, 11 Apr 2020 15:29:18 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
+04-11-2020 @ 12:29:23 - Request
+Request
+uri: https://graph.facebook.com/v2.9/303444363698202/log_events
+body: Array
+(
+    [message] => {"message":"Invalid parameter","object":{"plugin_version":"1.10.2","php_version":"7.3.0"}}
+    [error] => 1
+)
+headers: Array
+(
+    [Authorization] => ***************************************************************************************************************************************************************************************************************
+)
+timeout: 500
+method: POST
+
+04-11-2020 @ 12:29:23 - Response
+Response
+code: 200
+message: OK
+headers: Array
+(
+    [content-type] => application/json; charset=UTF-8
+    [facebook-api-version] => v2.12
+    [strict-transport-security] => max-age=15552000; preload
+    [pragma] => no-cache
+    [x-fb-rev] => 1001978342
+    [access-control-allow-origin] => *
+    [cache-control] => private, no-cache, no-store, must-revalidate
+    [x-fb-trace-id] => GjOodmP9OFw
+    [x-fb-request-id] => AY7nGMfpx4OwicmvS9GAqGv
+    [expires] => Sat, 01 Jan 2000 00:00:00 GMT
+    [x-fb-debug] => UtQ2GjQVxU+u1QxrV7qCrtHmX4xPtyxlFOK6gzMVEgBu7vGuOnZV5qK5PA4irhZZ4FgCptpitTNweMYHMHDxhw==
+    [date] => Sat, 11 Apr 2020 15:29:23 GMT
+    [alt-svc] => h3-27=":443"; ma=3600
+    [content-length] => 16
+)
+body: {"success":true}
+
